@@ -62,7 +62,7 @@ Awesome Open Source Tools
 - Three Label Segmentation Results (201809)
 
 |Rank |First Author |Title|GM/WM/CSF Dice|Score|
-|---|---|---|---|
+|---|---|---|---|---|
 |1|Liyan Sun|Brain Tissue Segmentation Using 3D FCN with Multi-modality Spatial Attention [(paper)](https://mrbrains18.isi.uu.nl/results/three-label-segmentation-results/smartdsp-2/)|0.86/0.889/0.850|11.272|
 
 ## Heart
