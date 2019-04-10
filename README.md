@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods
+# State-of-the-art medical image segmentation methods (201904)
 
 ## Contents
 **Brain**
@@ -169,3 +169,9 @@ TBD
 |201309|[Gabriela Csurka](https://scholar.google.ca/citations?user=PXm1lPAAAAAJ&hl=zh-CN&oi=sra)|What is a good evaluation measure for semantic segmentation? [(paper)](http://www.bmva.org/bmvc/2013/Papers/paper0032/paper0032.pdf)|BMVA 2013|
 
 > Most of the corresponding code can be found [here](https://github.com/NifTK/NiftyNet/blob/dev/niftynet/layer/loss_segmentation.py).
+
+## Contribute
+
+Contributions are most welcome!
+
+**[⬆ back to top](#Contents)**
