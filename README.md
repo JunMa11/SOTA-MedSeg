@@ -7,13 +7,13 @@
 - 2018 MICCAI: Ischemic stroke lesion segmentation
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
-**Chest & Heart**
+**Chest & Abdomen**
 
 - 2019 MICCAI: Left Ventricle Full Quantification Challenge [(Ongoing!!!)](https://github.com/TiancongHua/Left-Ventricle-Full-Quantification-Challenge-MICCAI-2019)
 - 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(Ongoing!!!)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
 - 2018 MICCAI: Left Ventricle Full Quantification Challenge 
 - 2018 MICCAI: Atrial Segmentation Challenge
-Chest and Abdomen
+- 2019 MICCAI: Liver Cancer Segmentation in whole-slide images (WSIs). [(Ongoing!!!)](https://paip2019.grand-challenge.org/Home/)
 - 2019 MICCAI: Kidney Tumor Segmentation Challenge [(Ongoing!!!)](https://kits19.grand-challenge.org/)
 - 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images
 - 2017 ISBI & MICCAI: Liver tumor segmentation challenge 
