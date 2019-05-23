@@ -33,12 +33,14 @@ Awesome Open Source Tools
 ### 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge[(BraTS)](https://www.med.upenn.edu/sbia/brats2018.html)
 *Summary: Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge Spyridon Bakas et al. 201811, [(arxiv)](https://arxiv.org/abs/1811.02629)*
 
-|Rank |First Author |Title|Val. WT/EN/TC Dice|Test Val. WT/ET/TC Dice|
+|Rank(18) |First Author |Title|Val. WT/EN/TC Dice|Test Val. WT/ET/TC Dice|
 |---|---|---|---|---|
 |1|Andriy Myronenko|3D MRI Brain Tumor Segmentation Using Autoencoder Regularization [(paper)](https://arxiv.org/pdf/1810.11654.pdf)|0.91/0.823/0.867|0.884/0.766/0.815|
 |2|[Fabian Isensee](https://scholar.google.ca/citations?user=PjerEe4AAAAJ&hl=zh-CN&oi=ao)|No New-Net [(paper)](https://arxiv.org/abs/1809.10483)|0.913/0.809/0.863|0.878/0.779/0.806|
 |3|[Richard McKinley](https://scholar.google.ca/citations?user=MVFfMZcAAAAJ&hl=zh-CN&oi=sra)|Ensembles of Densely-Connected CNNs with Label-Uncertainty for Brain Tumor Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_40)|0.903/0.796/0.847|0.732/0.886/0.799|
 |3|Chenhong Zhou|Learning Contextual and Attentive Information for Brain Tumor Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_44)|0.8136/0.9095/0.8651|0.8842/0.7775/0.7960|
+|New|[Xuhua Ren](https://scholar.google.com/citations?user=V2ujH7IAAAAJ&hl=zh-CN)|Task Decomposition and Synchronization for Semantic Biomedical Image Segmentation [(paper)](https://arxiv.org/abs/1905.08720)|0.832/0.915/0.883|-|
+
 
 ### 2018 MICCAI: Ischemic stroke lesion segmentation [(ISLES )](http://www.isles-challenge.org/)
 
