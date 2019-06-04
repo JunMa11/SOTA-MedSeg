@@ -1,14 +1,14 @@
 # State-of-the-art medical image segmentation methods based on various challenges! (Updated 201905)
 
 ## Contents
-**Brain**
-
+**Head**
+- 2019 MICCAI: Automatic Structure Segmentation for Radiotherapy Planning Challenge [(Ongoing!!!)](https://structseg2019.grand-challenge.org/)
 - 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge
 - 2018 MICCAI: Ischemic stroke lesion segmentation
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
 **Chest & Abdomen**
-- 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Ongoing)](https://verse2019.grand-challenge.org/Home/)
+- 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Ongoing!!!)](https://verse2019.grand-challenge.org/Home/)
 - 2019 MICCAI: Left Ventricle Full Quantification Challenge [(Ongoing!!!)](https://github.com/TiancongHua/Left-Ventricle-Full-Quantification-Challenge-MICCAI-2019)
 - 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(Ongoing!!!)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
 - 2018 MICCAI: Left Ventricle Full Quantification Challenge 
