@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201905)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201906)
 
 ## Contents
 **Head**
