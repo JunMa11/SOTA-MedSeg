@@ -46,6 +46,7 @@ Awesome Open Source Tools
 
 |Date |First Author |Title|Dice|
 |---|---|---|---|
+|20190605|Yu Chen|OctopusNet: A Deep Learning Segmentation Network for Multi-modal Medical Images [(paper)](https://arxiv.org/abs/1906.02031)|57.90 (5-fold CV)|
 |201812|[Hoel Kervadec](https://scholar.google.ca/citations?user=yeFGhfgAAAAJ&hl=zh-CN&oi=sra)|Boundary loss for highly unbalanced segmentation [(paper)](https://arxiv.org/abs/1812.07032), [(pytorch 1.0 code)](https://github.com/LIVIAETS/surface-loss)|65.6|
 |201809|Tao Song|3D Multi-scale U-Net with Atrous Convolution for Ischemic Stroke Lesion Segmentation, [(paper)](http://www.isles-challenge.org/articles/Tao_Song.pdf)|55.86|
 |201809|Pengbo Liu|Stroke Lesion Segmentation with 2D Convolutional Neutral Network and Novel Loss Function, [(paper)](http://www.isles-challenge.org/articles/Liu_Pengbo.pdf)|55.23|
