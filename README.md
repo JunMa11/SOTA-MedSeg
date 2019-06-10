@@ -143,6 +143,12 @@ Awesome Open Source Tools
 
 > Only showing Dice Score.
 
+### Recent papers on Medical Segmentation Decathlon
+|Date|First Author |Title|Score|
+|---|---|---|---|
+|20190606|Zhuotun Zhu|V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation [(arxiv)](https://arxiv.org/abs/1906.02817)|Lung tumor: 55.27; Pancreas and tumor: 79.94, 37.78 (4-fold CV)|
+
+
 
 
 
