@@ -23,7 +23,7 @@
 
 - 2018 MICCAI Medical Segmentation Decathlon
 Awesome Open Source Tools
-- Loss functions for Imbalanced Problems
+- Loss functions for label imbalanced Problems
 
 
 
@@ -69,10 +69,6 @@ Awesome Open Source Tools
 |1|Liyan Sun|Brain Tissue Segmentation Using 3D FCN with Multi-modality Spatial Attention [(paper)](https://mrbrains18.isi.uu.nl/results/three-label-segmentation-results/smartdsp-2/)|0.86/0.889/0.850|11.272|
 
 ## Heart
-### 2019 MICCAI: Left Ventricle Full Quantification Challenge [(LVQuan19)](https://github.com/TiancongHua/Left-Ventricle-Full-Quantification-Challenge-MICCAI-2019)
-**Ongoing!!! Deadline: July 3rd, 2019**
-> The aim of this challenge is to learn effective machine learning models that can estimate a set of clinical significant LV indices (regional wall thicknesses, cavity dimensions, area of cavity and myocardium, cardiac phase) directly from MR images. No intermediate segmentation is required in the whole procedure.
-
 ### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
 **Ongoing!!! Deadline: June 12th, 2019**
 > Multi-sequence ventricle and myocardium segmentation.
@@ -97,13 +93,15 @@ Awesome Open Source Tools
 ## Chest and Abdomen
 ### 2019 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS19)](https://kits19.grand-challenge.org/)
 **Ongoing!!! Deadline: July 29th, 2019**
-> The goal of this challenge is to accelerate the development of reliable kidney and kidney tumor semantic segmentation methodologies. We have produced ground truth semantic segmentations for arterial phase abdominal CT scans of 300 unique kidney cancer patients who underwent partial or radical nephrectomy at our institution. 210 of these will be released for model training and validation, and the remaining 90 will be held out for objective model evaluation.
+> The goal of this challenge is to accelerate the development of reliable kidney and kidney tumor semantic segmentation methodologies. We have produced ground truth semantic segmentations for arterial phase abdominal CT scans of 300 unique kidney cancer patients who underwent partial or radical nephrectomy at our institution. 210 of these will be released for model training an89.87d validation, and the remaining 90 will be held out for objective model evaluation.
 
 
 ### 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images [(SegTHOR)](https://competitions.codalab.org/competitions/21012)
 |Date|First Author |Title|Esophagus|Heart|Trachea|Aorta|
 |---|---|---|---|---|---|---|
 |20190320|Miaofei Han|Segmentation of CT thoracic organs by multi-resolution VB-nets [(paper)](http://pagesperso.litislab.fr/cpetitjean/wp-content/uploads/sites/19/2019/04/SegTHOR2019_paper_1.pdf)|86|95|92|94|
+|20190606|[Shadab Khan](https://scholar.google.ca/citations?user=HD4-OxgAAAAJ&hl=en&oi=ao)|Extreme Points Derived Conﬁdence Map as a Cue For Class-Agnostic Segmentation Using Deep Neural Network [(paper)](https://arxiv.org/pdf/1906.02421.pdf)|89.87|95.97|91.87|94|
+
 > [Challenge results](http://pagesperso.litislab.fr/cpetitjean/wp-content/uploads/sites/19/2019/04/SegTHOR_presentation_2.pdf)
 
 
