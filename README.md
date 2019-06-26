@@ -60,7 +60,8 @@ Awesome Open Source Tools
 |---|---|---|---|
 |1|Miguel Luna|3D Patchwise U-Net with Transition Layers for MR Brain Segmentation [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/mispl-2/)|9.971|
 |2|Alireza Mehrtash|U-Net with various input combinations [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/k2-2/)|9.915|
-|3|Xuhua Ren|Ensembles of Multiple Scales, Losses and Models for Segmentation of Brain Area [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/xuhuaren-2/)|9.872|
+|3|Xuhua Ren|Ensembles of Multiple Scales, Losses and Models for Segmentation of Brain Area [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/xuhuaren-2/) |9.872|
+|201906|[Xuhua Ren](https://scholar.google.com/citations?user=V2ujH7IAAAAJ&hl=zh-CN)|Brain MR Image Segmentation in Small Dataset with Adversarial Defense and Task Reorganization [(arxiv )](https://arxiv.org/ftp/arxiv/papers/1906/1906.10400.pdf)|5 fold CV Dice: 84.46|
 
 - Three Label Segmentation Results (201809)
 
