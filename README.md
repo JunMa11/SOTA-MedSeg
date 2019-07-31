@@ -30,71 +30,29 @@ Awesome Open Source Tools
 
 
 ## Brain
-### 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge[(BraTS)](https://www.med.upenn.edu/sbia/brats2018.html)
-*Summary: Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge Spyridon Bakas et al. 201811, [(arxiv)](https://arxiv.org/abs/1811.02629)*
 
-|Rank(18) |First Author |Title|Val. WT/EN/TC Dice|Test Val. WT/ET/TC Dice|
-|---|---|---|---|---|
-|1|Andriy Myronenko|3D MRI Brain Tumor Segmentation Using Autoencoder Regularization [(paper)](https://arxiv.org/pdf/1810.11654.pdf)|0.91/0.823/0.867|0.884/0.766/0.815|
-|2|[Fabian Isensee](https://scholar.google.ca/citations?user=PjerEe4AAAAJ&hl=zh-CN&oi=ao)|No New-Net [(paper)](https://arxiv.org/abs/1809.10483)|0.913/0.809/0.863|0.878/0.779/0.806|
-|3|[Richard McKinley](https://scholar.google.ca/citations?user=MVFfMZcAAAAJ&hl=zh-CN&oi=sra)|Ensembles of Densely-Connected CNNs with Label-Uncertainty for Brain Tumor Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_40)|0.903/0.796/0.847|0.886/0.732/0.799|
-|3|Chenhong Zhou|Learning Contextual and Attentive Information for Brain Tumor Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_44)|0.9095/0.8136/0.8651|0.8842/0.7775/0.7960|
-|New|[Xuhua Ren](https://scholar.google.com/citations?user=V2ujH7IAAAAJ&hl=zh-CN)|Task Decomposition and Synchronization for Semantic Biomedical Image Segmentation [(paper)](https://arxiv.org/abs/1905.08720)|0.915/0.832/0.883|-|
-
-
-### 2018 MICCAI: Ischemic stroke lesion segmentation [(ISLES )](http://www.isles-challenge.org/)
-
-|Date |First Author |Title|Dice|
-|---|---|---|---|
-|20190605|Yu Chen|OctopusNet: A Deep Learning Segmentation Network for Multi-modal Medical Images [(paper)](https://arxiv.org/abs/1906.02031)|57.90 (5-fold CV)|
-|201812|[Hoel Kervadec](https://scholar.google.ca/citations?user=yeFGhfgAAAAJ&hl=zh-CN&oi=sra)|Boundary loss for highly unbalanced segmentation [(paper)](https://arxiv.org/abs/1812.07032), [(pytorch 1.0 code)](https://github.com/LIVIAETS/surface-loss)|65.6|
-|201809|Tao Song|3D Multi-scale U-Net with Atrous Convolution for Ischemic Stroke Lesion Segmentation, [(paper)](http://www.isles-challenge.org/articles/Tao_Song.pdf)|55.86|
-|201809|Pengbo Liu|Stroke Lesion Segmentation with 2D Convolutional Neutral Network and Novel Loss Function, [(paper)](http://www.isles-challenge.org/articles/Liu_Pengbo.pdf)|55.23|
-|201809|Yu Chen|Ensembles of Modalities Fused Model for Ischemic Stroke Lesion Segmentation, [(paper)](http://www.isles-challenge.org/articles/Yu_Chen.pdf)|-|
-
-### 2018 MICCAI Grand Challenge on MR Brain Image Segmentation [(MRBrainS18)](https://mrbrains18.isi.uu.nl/)
-
-- Eight Label Segmentation Results (201809)
-
-|Rank |First Author |Title|Score|
-|---|---|---|---|
-|1|Miguel Luna|3D Patchwise U-Net with Transition Layers for MR Brain Segmentation [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/mispl-2/)|9.971|
-|2|Alireza Mehrtash|U-Net with various input combinations [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/k2-2/)|9.915|
-|3|Xuhua Ren|Ensembles of Multiple Scales, Losses and Models for Segmentation of Brain Area [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/xuhuaren-2/) |9.872|
-|201906|[Xuhua Ren](https://scholar.google.com/citations?user=V2ujH7IAAAAJ&hl=zh-CN)|Brain MR Image Segmentation in Small Dataset with Adversarial Defense and Task Reorganization [(arxiv )](https://arxiv.org/ftp/arxiv/papers/1906/1906.10400.pdf)|5 fold CV Dice: 84.46|
-
-- Three Label Segmentation Results (201809)
-
-|Rank |First Author |Title|GM/WM/CSF Dice|Score|
-|---|---|---|---|---|
-|1|Liyan Sun|Brain Tissue Segmentation Using 3D FCN with Multi-modality Spatial Attention [(paper)](https://mrbrains18.isi.uu.nl/results/three-label-segmentation-results/smartdsp-2/)|0.86/0.889/0.850|11.272|
 
 ## Heart
 ### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
 **Ongoing!!! Deadline: June 12th, 2019**
 > Multi-sequence ventricle and myocardium segmentation.
 
-### 2018 MICCAI: Left Ventricle Full Quantification Challenge [(LVQuan18)](https://lvquan18.github.io/)
 
-|Rank |First Author |Title|
-|---|---|---|
-|1|Jiahui Li|Left Ventricle Full Quantification Using Deep Layer Aggregation Based Multitask Relationship Learning, [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_41)|
-|2|[Eric Kerfoot](https://scholar.google.ca/citations?user=AhhlyboAAAAJ&hl=zh-CN&oi=sra)|Left-Ventricle Quantification Using Residual U-Net, [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_40)||
-|3|[Fumin Guo](https://scholar.google.ca/citations?user=l49sPKYAAAAJ&hl=zh-CN&oi=sra)|Cardiac MRI Left Ventricle Segmentation and Quantification: A Framework Combining U-Net and Continuous Max-Flow [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_6)|
-
-
-## 2018 MICCAI: Atrial Segmentation Challenge [(AtriaSeg)](http://atriaseg2018.cardiacatlas.org/)
-
-|Rank |First Author |Title|Score|
-|---|---|---|---|
-|1 |Qing Xia|Automatic 3D Atrial Segmentation from GE-MRIs Using Volumetric Fully Convolutional Networks [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_23)|0.932|
-|2 |Cheng Bian|Pyramid Network with Online Hard Example Mining for Accurate Left Atrium Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_26)|0.926|
-|2 |[Sulaiman Vesal](https://scholar.google.ca/citations?user=SQOL8eYAAAAJ&hl=en&oi=sra)|Dilated Convolutions in Neural Networks for Left Atrial Segmentation in 3D Gadolinium Enhanced-MR [(paper)](https://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2018/Vesal18-DCI.pdf)|0.926|
 
 ## Chest and Abdomen
 ### 2019 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS19)](https://kits19.grand-challenge.org/)
-**Ongoing!!! Deadline: July 29th, 2019**
-> The goal of this challenge is to accelerate the development of reliable kidney and kidney tumor semantic segmentation methodologies. We have produced ground truth semantic segmentations for arterial phase abdominal CT scans of 300 unique kidney cancer patients who underwent partial or radical nephrectomy at our institution. 210 of these will be released for model training an89.87d validation, and the remaining 90 will be held out for objective model evaluation.
+**[Leaderboard (2019/07/30)](http://results.kits-challenge.org/miccai2019/)**
+
+|Date|First Author |Title|Composite Dice|Kidney Dice|Tumor Dice|Remark|
+|---|---|---|---|---|---|---|
+|20190730|Fabian Isensee|An attempt at beating the 3D U-Net
+ [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/Isensee_1.pdf)|0.9123|0.9737|0.8509|1st Place|
+|20190730|Xiaoshuai Hou1 |Cascaded Semantic Segmentation for Kidney and Tumor
+ [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/PingAnTech_3.pdf)|0.9064|0.9674|0.8454|2nd Place|
+|20190730|Guangrui Mu|Segmentation of kidney tumor by multi-resolution VB-nets 
+ [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/gr_6.pdf)|0.9025|0.9729|0.8321|3rd Place|
+ 
+
 
 
 ### 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images [(SegTHOR)](https://competitions.codalab.org/competitions/21012)
@@ -146,6 +104,70 @@ Awesome Open Source Tools
 |Date|First Author |Title|Score|
 |---|---|---|---|
 |20190606|Zhuotun Zhu|V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation [(arxiv)](https://arxiv.org/abs/1906.02817)|Lung tumor: 55.27; Pancreas and tumor: 79.94, 37.78 (4-fold CV)|
+
+
+
+# Past Challenges (New submission closed)
+
+### 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge[(BraTS)](https://www.med.upenn.edu/sbia/brats2018.html)
+*Summary: Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge Spyridon Bakas et al. 201811, [(arxiv)](https://arxiv.org/abs/1811.02629)*
+
+|Rank(18) |First Author |Title|Val. WT/EN/TC Dice|Test Val. WT/ET/TC Dice|
+|---|---|---|---|---|
+|1|Andriy Myronenko|3D MRI Brain Tumor Segmentation Using Autoencoder Regularization [(paper)](https://arxiv.org/pdf/1810.11654.pdf)|0.91/0.823/0.867|0.884/0.766/0.815|
+|2|[Fabian Isensee](https://scholar.google.ca/citations?user=PjerEe4AAAAJ&hl=zh-CN&oi=ao)|No New-Net [(paper)](https://arxiv.org/abs/1809.10483)|0.913/0.809/0.863|0.878/0.779/0.806|
+|3|[Richard McKinley](https://scholar.google.ca/citations?user=MVFfMZcAAAAJ&hl=zh-CN&oi=sra)|Ensembles of Densely-Connected CNNs with Label-Uncertainty for Brain Tumor Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_40)|0.903/0.796/0.847|0.886/0.732/0.799|
+|3|Chenhong Zhou|Learning Contextual and Attentive Information for Brain Tumor Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_44)|0.9095/0.8136/0.8651|0.8842/0.7775/0.7960|
+|New|[Xuhua Ren](https://scholar.google.com/citations?user=V2ujH7IAAAAJ&hl=zh-CN)|Task Decomposition and Synchronization for Semantic Biomedical Image Segmentation [(paper)](https://arxiv.org/abs/1905.08720)|0.915/0.832/0.883|-|
+
+
+### 2018 MICCAI: Ischemic stroke lesion segmentation [(ISLES )](http://www.isles-challenge.org/)
+
+|Date |First Author |Title|Dice|
+|---|---|---|---|
+|20190605|Yu Chen|OctopusNet: A Deep Learning Segmentation Network for Multi-modal Medical Images [(paper)](https://arxiv.org/abs/1906.02031)|57.90 (5-fold CV)|
+|201812|[Hoel Kervadec](https://scholar.google.ca/citations?user=yeFGhfgAAAAJ&hl=zh-CN&oi=sra)|Boundary loss for highly unbalanced segmentation [(paper)](https://arxiv.org/abs/1812.07032), [(pytorch 1.0 code)](https://github.com/LIVIAETS/surface-loss)|65.6|
+|201809|Tao Song|3D Multi-scale U-Net with Atrous Convolution for Ischemic Stroke Lesion Segmentation, [(paper)](http://www.isles-challenge.org/articles/Tao_Song.pdf)|55.86|
+|201809|Pengbo Liu|Stroke Lesion Segmentation with 2D Convolutional Neutral Network and Novel Loss Function, [(paper)](http://www.isles-challenge.org/articles/Liu_Pengbo.pdf)|55.23|
+|201809|Yu Chen|Ensembles of Modalities Fused Model for Ischemic Stroke Lesion Segmentation, [(paper)](http://www.isles-challenge.org/articles/Yu_Chen.pdf)|-|
+
+### 2018 MICCAI Grand Challenge on MR Brain Image Segmentation [(MRBrainS18)](https://mrbrains18.isi.uu.nl/)
+
+- Eight Label Segmentation Results (201809)
+
+|Rank |First Author |Title|Score|
+|---|---|---|---|
+|1|Miguel Luna|3D Patchwise U-Net with Transition Layers for MR Brain Segmentation [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/mispl-2/)|9.971|
+|2|Alireza Mehrtash|U-Net with various input combinations [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/k2-2/)|9.915|
+|3|Xuhua Ren|Ensembles of Multiple Scales, Losses and Models for Segmentation of Brain Area [(paper)](https://mrbrains18.isi.uu.nl/results/eight-label-segmentation-results/xuhuaren-2/) |9.872|
+|201906|[Xuhua Ren](https://scholar.google.com/citations?user=V2ujH7IAAAAJ&hl=zh-CN)|Brain MR Image Segmentation in Small Dataset with Adversarial Defense and Task Reorganization [(arxiv )](https://arxiv.org/ftp/arxiv/papers/1906/1906.10400.pdf)|5 fold CV Dice: 84.46|
+
+- Three Label Segmentation Results (201809)
+
+|Rank |First Author |Title|GM/WM/CSF Dice|Score|
+|---|---|---|---|---|
+|1|Liyan Sun|Brain Tissue Segmentation Using 3D FCN with Multi-modality Spatial Attention [(paper)](https://mrbrains18.isi.uu.nl/results/three-label-segmentation-results/smartdsp-2/)|0.86/0.889/0.850|11.272|
+
+
+
+### 2018 MICCAI: Left Ventricle Full Quantification Challenge [(LVQuan18)](https://lvquan18.github.io/)
+
+|Rank |First Author |Title|
+|---|---|---|
+|1|Jiahui Li|Left Ventricle Full Quantification Using Deep Layer Aggregation Based Multitask Relationship Learning, [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_41)|
+|2|[Eric Kerfoot](https://scholar.google.ca/citations?user=AhhlyboAAAAJ&hl=zh-CN&oi=sra)|Left-Ventricle Quantification Using Residual U-Net, [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_40)||
+|3|[Fumin Guo](https://scholar.google.ca/citations?user=l49sPKYAAAAJ&hl=zh-CN&oi=sra)|Cardiac MRI Left Ventricle Segmentation and Quantification: A Framework Combining U-Net and Continuous Max-Flow [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_6)|
+
+
+## 2018 MICCAI: Atrial Segmentation Challenge [(AtriaSeg)](http://atriaseg2018.cardiacatlas.org/)
+
+|Rank |First Author |Title|Score|
+|---|---|---|---|
+|1 |Qing Xia|Automatic 3D Atrial Segmentation from GE-MRIs Using Volumetric Fully Convolutional Networks [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_23)|0.932|
+|2 |Cheng Bian|Pyramid Network with Online Hard Example Mining for Accurate Left Atrium Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-12029-0_26)|0.926|
+|2 |[Sulaiman Vesal](https://scholar.google.ca/citations?user=SQOL8eYAAAAJ&hl=en&oi=sra)|Dilated Convolutions in Neural Networks for Left Atrial Segmentation in 3D Gadolinium Enhanced-MR [(paper)](https://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2018/Vesal18-DCI.pdf)|0.926|
+
+
 
 
 
