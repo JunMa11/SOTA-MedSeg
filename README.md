@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201906)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201908)
 
 ## Contents
 **Head**
@@ -10,26 +10,26 @@
 
 **Chest & Abdomen**
 - 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Ongoing!!!)](https://verse2019.grand-challenge.org/Home/)
-- 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(Ongoing!!!)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
+- 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge
 - 2018 MICCAI: Left Ventricle Full Quantification Challenge 
 - 2018 MICCAI: Atrial Segmentation Challenge
-- 2019 MICCAI: Kidney Tumor Segmentation Challenge [(Ongoing!!!)](https://kits19.grand-challenge.org/)
+- 2019 MICCAI: Kidney Tumor Segmentation Challenge
 - 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images
 - 2017 ISBI & MICCAI: Liver tumor segmentation challenge 
 - 2012 MICCAI: Prostate MR Image Segmentation 
 
 **Others**
-
 - 2018 MICCAI Medical Segmentation Decathlon
-Awesome Open Source Tools
-- Loss functions for label imbalanced Problems
+- Awesome Open Source Tools
+- Loss functions for class imbalanced Problems
 
 
 
 
 
 ## Brain
-2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Ongoing!!!)](http://braintumorsegmentation.org/)
+- 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Ongoing!!!)](http://braintumorsegmentation.org/)
+- 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Ongoing!!!)](http://iseg2019.web.unc.edu/)
 
 ## Heart
 ### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
