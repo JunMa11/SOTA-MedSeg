@@ -13,7 +13,6 @@
 - 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(Ongoing!!!)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
 - 2018 MICCAI: Left Ventricle Full Quantification Challenge 
 - 2018 MICCAI: Atrial Segmentation Challenge
-- 2019 MICCAI: Liver Cancer Segmentation in whole-slide images (WSIs). [(Ongoing!!!)](https://paip2019.grand-challenge.org/Home/)
 - 2019 MICCAI: Kidney Tumor Segmentation Challenge [(Ongoing!!!)](https://kits19.grand-challenge.org/)
 - 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images
 - 2017 ISBI & MICCAI: Liver tumor segmentation challenge 
@@ -30,11 +29,11 @@ Awesome Open Source Tools
 
 
 ## Brain
-
+2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Ongoing!!!)](http://braintumorsegmentation.org/)
 
 ## Heart
 ### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
-**Ongoing!!! Deadline: June 12th, 2019**
+**Waiting for results**
 > Multi-sequence ventricle and myocardium segmentation.
 
 
@@ -45,12 +44,9 @@ Awesome Open Source Tools
 
 |Date|First Author |Title|Composite Dice|Kidney Dice|Tumor Dice|Remark|
 |---|---|---|---|---|---|---|
-|20190730|Fabian Isensee|An attempt at beating the 3D U-Net
- [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/Isensee_1.pdf)|0.9123|0.9737|0.8509|1st Place|
-|20190730|Xiaoshuai Hou1 |Cascaded Semantic Segmentation for Kidney and Tumor
- [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/PingAnTech_3.pdf)|0.9064|0.9674|0.8454|2nd Place|
-|20190730|Guangrui Mu|Segmentation of kidney tumor by multi-resolution VB-nets 
- [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/gr_6.pdf)|0.9025|0.9729|0.8321|3rd Place|
+|20190730|Fabian Isensee|An attempt at beating the 3D U-Net [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/Isensee_1.pdf)|0.9123|0.9737|0.8509|1st Place|
+|20190730|Xiaoshuai Hou1 |Cascaded Semantic Segmentation for Kidney and Tumor [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/PingAnTech_3.pdf)|0.9064|0.9674|0.8454|2nd Place|
+|20190730|Guangrui Mu|Segmentation of kidney tumor by multi-resolution VB-nets [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/gr_6.pdf)|0.9025|0.9729|0.8321|3rd Place|
  
 
 
