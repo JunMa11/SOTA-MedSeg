@@ -36,6 +36,9 @@
 **Waiting for results**
 > Multi-sequence ventricle and myocardium segmentation.
 
+|Date|First Author |Title|LV|Myo|RV|
+|---|---|---|---|---|---|
+|20190821|[Chen Chen](https://sites.google.com/view/morningchen-site/home)|Unsupervised Multi-modal Style Transfer for Cardiac MR Segmentation [(arxiv)](https://arxiv.org/pdf/1908.07344.pdf)|0.92|0.83|0.88|
 
 
 ## Chest and Abdomen
