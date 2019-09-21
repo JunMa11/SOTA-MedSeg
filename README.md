@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201908)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201909)
 
 ## Contents
 **Head**
@@ -42,6 +42,14 @@
 
 
 ## Chest and Abdomen
+### [2019 Kaggle SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation)
+
+|Date|First Author |Title|Dice|
+|---|---|---|---|
+|20190905|Aimoldin Anuar|SIIM-ACR Pneumothorax Challenge - 1st place solution [(pytorch)](https://github.com/sneddy/pneumothorax-segmentation)|0.8679|
+
+
+
 ### 2019 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS19)](https://kits19.grand-challenge.org/)
 **[Leaderboard (2019/07/30)](http://results.kits-challenge.org/miccai2019/)**
 
