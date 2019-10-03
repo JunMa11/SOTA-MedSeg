@@ -1,9 +1,10 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201909)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201910)
 
 ## Contents
 **Head**
 - 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Ongoing!!!)](http://braintumorsegmentation.org/)
-- 2019 MICCAI: Automatic Structure Segmentation for Radiotherapy Planning Challenge [(Ongoing!!!)](https://structseg2019.grand-challenge.org/)
+- 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
+- 2019 MICCAI: Automatic Structure Segmentation for Radiotherapy Planning Challenge [(Results)](http://www.structseg-challenge.org/#/)
 - 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge
 - 2018 MICCAI: Ischemic stroke lesion segmentation
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
@@ -27,13 +28,23 @@
 
 
 
-## Brain
+## Head
 - 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Ongoing!!!)](http://braintumorsegmentation.org/)
-- 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Ongoing!!!)](http://iseg2019.web.unc.edu/)
+- 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
+
+### 2019 MICCAI: Structure Segmentation for Radiotherapy Planning [(StructSeg)](https://structseg2019.grand-challenge.org/)
+> [Results](http://www.structseg-challenge.org/#/)
+
+|Date|First Author |Title|Head & Neck OAR|Head & Neck GTV|Chest OAR|Chest GTV|
+|---|---|---|---|---|---|---|
+|20191001|Huai Chen|TBD|0.8109|0.6666|0.9011|0.5406|
+|20191001|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|nnU-Net|0.7988|0.6398|0.9083|0.5343|
+|20191001|Yujin Hu|TBD|0.7956|0.6245|0.9024|0.5447|
+|20191001|Xuechen Liu|TBD|-|-|0.9066|-|
+
 
 ## Heart
 ### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
-**Waiting for results**
 > Multi-sequence ventricle and myocardium segmentation.
 
 |Date|First Author |Title|LV|Myo|RV|
