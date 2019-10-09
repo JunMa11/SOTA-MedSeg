@@ -102,19 +102,20 @@
 
 ## Others
 ### [2018 MICCAI Medical Segmentation Decathlon](http://medicaldecathlon.com/)
+Recent results can be found [here](https://decathlon-10.grand-challenge.org/evaluation/results/).
 
-|Task|Data Info|Fabian Isensee et al. [(paper)](https://arxiv.org/abs/1809.10486)| Yingda Xia et al. [(paper)](https://arxiv.org/abs/1811.12506)|
-|---|---|---|---|
-|Brats|Multimodal multisite MRI data (FLAIR, T1w, T1gd,T2w),  (484 Training + 266 Testing) |0.68/0.48/0.68|0.675/0.45/0.68|    
-|Heart|Mono-modal MRI (20 Training + 10 Testing) |0.93|0.925|
-|Hippocampus head and body|Mono-modal MRI (263 Training + 131 Testing)|0.90/0.89|0.88/0.867|
-|Liver & Tumor|Portal venous phase CT  (131 Training + 70 Testing)|0.95/0.74|0.95/0.714|
-|Lung|CT (64 Training + 32 Testing)|0.69|0.52|
-|Pancreas & Tumor|Portal venous phase CT (282 Training +139 Testing) |0.80/0.52|0.784/0.385|
-|Prostate central gland and peripheral|Multimodal MR (T2, ADC) (32 Training + 16 Testing)|0.76/0.90|0.69/0.867|
-|Hepatic vessel& Tumor| CT, (303 Training + 140 Testing)|0.63/0.69|-|
-|Spleen|CT (41 Training + 20 Testing)|0.96|-|
-|Colon|CT (41 Training + 20 Testing)|0.56|-|
+|Task|Data Info|Fabian Isensee et al. [(paper)](https://arxiv.org/abs/1809.10486)| Yingda Xia et al. [(paper)](https://arxiv.org/abs/1811.12506)| [Qihang Yu](https://scholar.google.com/citations?hl=en&user=7zZdZxsAAAAJ&view_op=list_works&sortby=pubdate) on [Oct. 8](https://decathlon-10.grand-challenge.org/evaluation/results/95c498ae-8610-4e30-b220-84b4923a59ca/)|
+|---|---|---|---|---|
+|Brats|Multimodal multisite MRI data (FLAIR, T1w, T1gd,T2w),  (484 Training + 266 Testing) |0.68/0.48/0.68|0.675/0.45/0.68| 0.68/0.48/0.69|   
+|Heart|Mono-modal MRI (20 Training + 10 Testing) |0.93|0.92|0.93|
+|Hippocampus head and body|Mono-modal MRI (263 Training + 131 Testing)|0.90/0.89|0.88/0.87|0.89/0.88|
+|Liver & Tumor|Portal venous phase CT  (131 Training + 70 Testing)|0.95/0.74|0.95/0.71|0.95/0.74|
+|Lung|CT (64 Training + 32 Testing)|0.69|0.52|0.73|
+|Pancreas & Tumor|Portal venous phase CT (282 Training +139 Testing) |0.80/0.52|0.78/0.39|0.81/0.56|
+|Prostate central gland and peripheral|Multimodal MR (T2, ADC) (32 Training + 16 Testing)|0.76/0.90|0.69/0.867|0.75/0.89|
+|Hepatic vessel& Tumor| CT, (303 Training + 140 Testing)|0.63/0.69|-|0.64/0.71|
+|Spleen|CT (41 Training + 20 Testing)|0.96|-|0.97|
+|Colon|CT (41 Training + 20 Testing)|0.56|-|0.53|
 
 > Only showing Dice Score.
 
@@ -199,32 +200,11 @@
 |Medical Image Analysis|[Eli Gibson](https://scholar.google.ca/citations?user=Wtp-1I8AAAAJ&hl=zh-CN&oi=sra) and [Wenqi Li](https://scholar.google.ca/citations?user=LFDQeh0AAAAJ&hl=zh-CN&oi=sra)|NiftyNet: a deep-learning platform for medical imaging [(paper)](https://arxiv.org/abs/1709.03485?context=cs.NE), [(code)](https://github.com/NifTK/NiftyNet)|Tensorflow 1.12|
 |Segmentation|[Christian S. Perone](http://blog.christianperone.com/)|[MedicalTorch](https://medicaltorch.readthedocs.io/en/stable/)|pytorch>=0.4|
 |awesome-semantic-segmentation|mrgloom|[awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)|3000+ stars|
-|Segmentation|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|nnU-Net [(paper)](https://arxiv.org/abs/1904.08128) [(code)](https://github.com/MIC-DKFZ/nnUNet)|100+stars|
+|Segmentation|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|nnU-Net [(paper)](https://arxiv.org/abs/1904.08128) [(code)](https://github.com/MIC-DKFZ/nnUNet)|300+stars|
 
 
-## Loss functions for Imbalanced Problems
+## Loss functions for Segmentation [(paper & code)](https://github.com/JunMa11/SegLoss)
 
-|Date|First Author|Title|Conference/Journal|
-|---|---|---|---|
-|201904|Davood Karimi|Reducing the **Hausdorff Distance** in Medical Image Segmentation with Convolutional Neural Networks [(paper)](https://arxiv.org/abs/1904.10030v1#)|arxiv|
-|201901|[Seyed Raein Hashemi](https://scholar.google.ca/citations?user=4VEP0fsAAAAJ&hl=en&oi=sra)|**Asymmetric Loss** Functions and Deep Densely Connected Networks for Highly Imbalanced Medical Image Segmentation: Application to Multiple Sclerosis Lesion Detection [(paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8573779)|IEEE Access|
-|201812|[Hoel Kervadec](https://scholar.google.ca/citations?user=yeFGhfgAAAAJ&hl=zh-CN&oi=sra)|**Boundary loss** for highly unbalanced segmentation [(paper)](https://arxiv.org/abs/1812.07032), [(pytorch 1.0 code)](https://github.com/LIVIAETS/surface-loss)|[MIDL 2019](http://2019.midl.io/)|
-|201810|[Nabila Abraham](https://scholar.google.ca/citations?user=OOvooSMAAAAJ&hl=zh-CN&oi=sra)|A Novel **Focal Tversky loss** function with improved Attention U-Net for lesion segmentation [(paper)](https://arxiv.org/abs/1810.07842)|[ISBI 2019](https://biomedicalimaging.org/2019/)|
-|201809|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|**CE+Dice** nnU-Net: Self-adapting Framework for U-Net-Based Medical Image Segmentation [(paper)](https://arxiv.org/abs/1809.10486)|arxiv|
-|201808|[Ken C. L. Wong](https://scholar.google.ca/citations?hl=zh-CN&user=XjnODToAAAAJ&view_op=list_works&sortby=pubdate)|3D Segmentation with **Exponential Logarithmic Loss** for Highly Unbalanced Object Sizes [(paper)](https://arxiv.org/abs/1809.00076)|MICCAI 2018|
-|201806|[Javier Ribera](https://scholar.google.ca/citations?user=TAaovakAAAAJ&hl=zh-CN&oi=sra)|**Weighted Hausdorff Distance:** Locating Objects Without Bounding Boxes [(paper)](https://arxiv.org/abs/1806.07564), [(pytorch code)](https://github.com/HaipengXiong/weighted-hausdorff-loss)|CVPR 2019|
-|201708|[Tsung-Yi Lin](https://scholar.google.ca/citations?user=_BPdgV0AAAAJ&hl=zh-CN&oi=sra)|**Focal Loss** for Dense Object Detection [(paper)](https://arxiv.org/abs/1708.02002), [(code)](https://github.com/facebookresearch/Detectron)|ICCV, TPAMI|
-|20170711|[Carole Sudre](https://scholar.google.ca/citations?user=14GfvB4AAAAJ&hl=zh-CN&oi=sra)|**Generalised Dice** overlap as a deep learning loss function for highly unbalanced segmentations [(paper)](https://arxiv.org/abs/1707.03237)|DLMIA 2017|
-|20170703|[Lucas Fidon](https://scholar.google.ca/citations?user=GORojioAAAAJ&hl=zh-CN&oi=sra)|**Generalised Wasserstein Dice** Score for Imbalanced Multi-class Segmentation using Holistic Convolutional Networks [(paper)](https://arxiv.org/abs/1707.00478)|MICCAI 2017 BrainLes|
-|201705|[Maxim Berman](https://scholar.google.ca/citations?user=RoOng2wAAAAJ&hl=zh-CN&oi=sra)|The **Lovász-Softmax loss:** A tractable surrogate for the optimization of the intersection-over-union measure in neural networks [(paper)](https://arxiv.org/abs/1705.08790), [(code)](https://github.com/bermanmaxim/LovaszSoftmax)|CVPR 2018|
-|201701|[Seyed Sadegh Mohseni Salehi](https://scholar.google.ca/citations?user=hTWINokAAAAJ&hl=zh-CN&oi=sra)|**Tversky loss** function for image segmentation using 3D fully convolutional deep networks [(paper)](https://arxiv.org/abs/1706.05721)|MICCAI 2017 MLMI|
-|201612|[Md Atiqur Rahman](https://scholar.google.ca/citations?user=tLPerVUAAAAJ&hl=zh-CN&oi=sra)|Optimizing **Intersection-Over-Union** in Deep Neural Networks for Image Segmentation [(paper)](https://link.springer.com/chapter/10.1007/978-3-319-50835-1_22)|2016 International Symposium on Visual Computing|
-|201606|[Fausto Milletari](https://faustomilletari.github.io/)|**"Dice Loss"** V-net: Fully convolutional neural networks for volumetric medical image segmentation [(paper)](https://arxiv.org/abs/1606.04797), [(caffe code)](https://github.com/faustomilletari/VNet)|International Conference on 3D Vision|
-|201511|[Tom Brosch](https://scholar.google.ca/citations?user=KChq7WIAAAAJ&hl=zh-CN&oi=sra)|**"Sensitivity-Specifity loss"** Deep Convolutional Encoder Networks for Multiple Sclerosis Lesion Segmentation [(paper)](http://www.rogertam.ca/Brosch_MICCAI_2015.pdf)|MICCAI 2015|
-|201505|[Olaf Ronneberger](https://scholar.google.ca/citations?user=7jrO1NwAAAAJ&hl=zh-CN&oi=sra)|**"Weighted cross entropy"** U-Net: Convolutional Networks for Biomedical Image Segmentation [(paper)](https://arxiv.org/abs/1505.04597)|MICCAI 2015|
-|201309|[Gabriela Csurka](https://scholar.google.ca/citations?user=PXm1lPAAAAAJ&hl=zh-CN&oi=sra)|What is a good evaluation measure for semantic segmentation? [(paper)](http://www.bmva.org/bmvc/2013/Papers/paper0032/paper0032.pdf)|BMVA 2013|
-
-> Most of the corresponding code can be found [here](https://github.com/NifTK/NiftyNet/blob/dev/niftynet/layer/loss_segmentation.py).
 
 ## Contribute
 
