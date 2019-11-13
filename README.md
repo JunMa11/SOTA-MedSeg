@@ -1,8 +1,8 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201910)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 201911)
 
 ## Contents
 **Head**
-- 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Ongoing!!!)](http://braintumorsegmentation.org/)
+- 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Results)](http://braintumorsegmentation.org/)
 - 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
 - 2019 MICCAI: Automatic Structure Segmentation for Radiotherapy Planning Challenge [(Results)](http://www.structseg-challenge.org/#/)
 - 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge
@@ -10,7 +10,7 @@
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
 **Chest & Abdomen**
-- 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Ongoing!!!)](https://verse2019.grand-challenge.org/Home/)
+- 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Results)](https://verse2019.grand-challenge.org/VerSe_at_MICCAI19/)
 - 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge
 - 2018 MICCAI: Left Ventricle Full Quantification Challenge 
 - 2018 MICCAI: Atrial Segmentation Challenge
@@ -29,7 +29,7 @@
 
 
 ## Head
-- 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Ongoing!!!)](http://braintumorsegmentation.org/)
+- 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Results)](http://braintumorsegmentation.org/)
 - 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
 
 ### 2019 MICCAI: Structure Segmentation for Radiotherapy Planning [(StructSeg)](https://structseg2019.grand-challenge.org/)
@@ -43,24 +43,6 @@
 |20191001|Xuechen Liu|TBD|-|-|0.9066|-|
 
 
-## Heart
-### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
-> Multi-sequence ventricle and myocardium segmentation.
-
-|Date|First Author |Title|LV|Myo|RV|
-|---|---|---|---|---|---|
-|20190821|[Chen Chen](https://sites.google.com/view/morningchen-site/home)|Unsupervised Multi-modal Style Transfer for Cardiac MR Segmentation [(arxiv)](https://arxiv.org/pdf/1908.07344.pdf)|0.92|0.83|0.88|
-
-
-## Chest and Abdomen
-### [2019 Kaggle SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation)
-
-|Date|First Author |Title|Dice|
-|---|---|---|---|
-|20190905|Aimoldin Anuar|SIIM-ACR Pneumothorax Challenge - 1st place solution [(pytorch)](https://github.com/sneddy/pneumothorax-segmentation)|0.8679|
-
-
-
 ### 2019 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS19)](https://kits19.grand-challenge.org/)
 **[Leaderboard (2019/07/30)](http://results.kits-challenge.org/miccai2019/)**
 
@@ -72,22 +54,13 @@
  
 
 
-
-### 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images [(SegTHOR)](https://competitions.codalab.org/competitions/21012)
-|Date|First Author |Title|Esophagus|Heart|Trachea|Aorta|
-|---|---|---|---|---|---|---|
-|20190320|Miaofei Han|Segmentation of CT thoracic organs by multi-resolution VB-nets [(paper)](http://pagesperso.litislab.fr/cpetitjean/wp-content/uploads/sites/19/2019/04/SegTHOR2019_paper_1.pdf)|86|95|92|94|
-|20190606|[Shadab Khan](https://scholar.google.ca/citations?user=HD4-OxgAAAAJ&hl=en&oi=ao)|Extreme Points Derived Conﬁdence Map as a Cue For Class-Agnostic Segmentation Using Deep Neural Network [(paper)](https://arxiv.org/pdf/1906.02421.pdf)|89.87|95.97|91.87|94|
-
-> [Challenge results](http://pagesperso.litislab.fr/cpetitjean/wp-content/uploads/sites/19/2019/04/SegTHOR_presentation_2.pdf)
-
-
 ### 2017 ISBI & MICCAI: Liver tumor segmentation challenge [(LiTS)](https://competitions.codalab.org/competitions/17094)
 *Summary: The Liver Tumor Segmentation Benchmark (LiTS), Patrick Bilic et al. 201901 [(arxiv)](https://arxiv.org/abs/1901.04056)*
 
 |Date|First Author |Title|Liver Dice|Tumor Dice|
 |---|---|---|---|---|
-|201709|[Xiaomeng Li](https://scholar.google.ca/citations?user=uVTzPpoAAAAJ&hl=zh-CN&oi=sra)| H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes, [(paper)](https://arxiv.org/abs/1709.07330), [(Keras code)](https://github.com/xmengli999/H-DenseUNet) |0.961|0.722|
+|201709|[Xiaomeng Li](https://scholar.google.ca/citations?user=uVTzPpoAAAAJ&hl=zh-CN&oi=sra)| H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes, [(TMI)](https://arxiv.org/abs/1709.07330), [(Keras code)](https://github.com/xmengli999/H-DenseUNet) |0.961|0.722|
+|201909|[Xudong Wang](https://scholar.google.com.hk/citations?user=RyS4ueAAAAAJ&hl=zh-CN&oi=sra)|Volumetric Attention for 3D Medical Image Segmentation and Detection [(MICCAI2019)](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_20)|-|74.10|
 
 
 ### 2012 MICCAI: Prostate MR Image Segmentation [(PROMISE12)](https://promise12.grand-challenge.org/)
@@ -127,6 +100,28 @@ Recent results can be found [here](https://decathlon-10.grand-challenge.org/eval
 
 
 # Past Challenges (New submission closed)
+### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
+> Multi-sequence ventricle and myocardium segmentation.
+
+|Date|First Author |Title|LV|Myo|RV|
+|---|---|---|---|---|---|
+|20190821|[Chen Chen](https://sites.google.com/view/morningchen-site/home)|Unsupervised Multi-modal Style Transfer for Cardiac MR Segmentation [(arxiv)](https://arxiv.org/pdf/1908.07344.pdf)|0.92|0.83|0.88|
+
+### [2019 Kaggle SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation)
+
+|Date|First Author |Title|Dice|
+|---|---|---|---|
+|20190905|Aimoldin Anuar|SIIM-ACR Pneumothorax Challenge - 1st place solution [(pytorch)](https://github.com/sneddy/pneumothorax-segmentation)|0.8679|
+
+
+### 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images [(SegTHOR)](https://competitions.codalab.org/competitions/21012)
+|Date|First Author |Title|Esophagus|Heart|Trachea|Aorta|
+|---|---|---|---|---|---|---|
+|20190320|Miaofei Han|Segmentation of CT thoracic organs by multi-resolution VB-nets [(paper)](http://pagesperso.litislab.fr/cpetitjean/wp-content/uploads/sites/19/2019/04/SegTHOR2019_paper_1.pdf)|86|95|92|94|
+|20190606|[Shadab Khan](https://scholar.google.ca/citations?user=HD4-OxgAAAAJ&hl=en&oi=ao)|Extreme Points Derived Conﬁdence Map as a Cue For Class-Agnostic Segmentation Using Deep Neural Network [(paper)](https://arxiv.org/pdf/1906.02421.pdf)|89.87|95.97|91.87|94|
+
+> [Challenge results](http://pagesperso.litislab.fr/cpetitjean/wp-content/uploads/sites/19/2019/04/SegTHOR_presentation_2.pdf)
+
 
 ### 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge[(BraTS)](https://www.med.upenn.edu/sbia/brats2018.html)
 *Summary: Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge Spyridon Bakas et al. 201811, [(arxiv)](https://arxiv.org/abs/1811.02629)*
