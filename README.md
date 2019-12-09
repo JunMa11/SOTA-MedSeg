@@ -2,6 +2,7 @@
 
 ## Contents
 **Head**
+- 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
 - 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Results)](http://braintumorsegmentation.org/)
 - 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
 - 2019 MICCAI: Automatic Structure Segmentation for Radiotherapy Planning Challenge [(Results)](http://www.structseg-challenge.org/#/)
@@ -28,9 +29,16 @@
 
 
 
-## Head
-- 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Results)](http://braintumorsegmentation.org/)
-- 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
+## Ongoing Challenges
+
+- 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
+> - Train/validation set prediction submission and ICIAR 2020 paper submission deadline: 10 February, 2020
+> - Test set release: 11 February, 2020
+> - Test set prediction submission deadline: 17 February, 2020
+> - Results announcement: 18 February, 2020
+
+
+## Challenges on Open Leaderboard Phase
 
 ### 2019 MICCAI: Structure Segmentation for Radiotherapy Planning [(StructSeg)](https://structseg2019.grand-challenge.org/)
 > [Results](http://www.structseg-challenge.org/#/)
