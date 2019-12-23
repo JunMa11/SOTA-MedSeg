@@ -87,26 +87,26 @@
 ### [2018 MICCAI Medical Segmentation Decathlon](http://medicaldecathlon.com/)
 Recent results can be found [here](https://decathlon-10.grand-challenge.org/evaluation/results/).
 
-|Task|Data Info|Fabian Isensee et al. [(paper)](https://arxiv.org/abs/1809.10486)| Yingda Xia et al. [(paper)](https://arxiv.org/abs/1811.12506)| [Qihang Yu](https://scholar.google.com/citations?hl=en&user=7zZdZxsAAAAJ&view_op=list_works&sortby=pubdate) on [Oct. 8](https://decathlon-10.grand-challenge.org/evaluation/results/95c498ae-8610-4e30-b220-84b4923a59ca/)|
+|Task|Data Info|Fabian Isensee et al. [(paper)](https://arxiv.org/abs/1809.10486)|[nnUNet v2](https://github.com/MIC-DKFZ/nnUNet) | [Qihang Yu](https://scholar.google.com/citations?hl=en&user=7zZdZxsAAAAJ&view_op=list_works&sortby=pubdate) et al. [(paper)](https://arxiv.org/abs/1912.09628)|
 |---|---|---|---|---|
-|Brats|Multimodal multisite MRI data (FLAIR, T1w, T1gd,T2w),  (484 Training + 266 Testing) |0.68/0.48/0.68|0.675/0.45/0.68| 0.68/0.48/0.69|   
-|Heart|Mono-modal MRI (20 Training + 10 Testing) |0.93|0.92|0.93|
-|Hippocampus head and body|Mono-modal MRI (263 Training + 131 Testing)|0.90/0.89|0.88/0.87|0.89/0.88|
-|Liver & Tumor|Portal venous phase CT  (131 Training + 70 Testing)|0.95/0.74|0.95/0.71|0.95/0.74|
-|Lung|CT (64 Training + 32 Testing)|0.69|0.52|0.73|
-|Pancreas & Tumor|Portal venous phase CT (282 Training +139 Testing) |0.80/0.52|0.78/0.39|0.81/0.56|
-|Prostate central gland and peripheral|Multimodal MR (T2, ADC) (32 Training + 16 Testing)|0.76/0.90|0.69/0.867|0.75/0.89|
-|Hepatic vessel& Tumor| CT, (303 Training + 140 Testing)|0.63/0.69|-|0.64/0.71|
-|Spleen|CT (41 Training + 20 Testing)|0.96|-|0.97|
-|Colon|CT (41 Training + 20 Testing)|0.56|-|0.53|
+|Brats|Multimodal multisite MRI data (FLAIR, T1w, T1gd,T2w),  (484 Training + 266 Testing) |0.68/0.48/0.68|68/46.8/68.46| 67.6/48.6/69.7|   
+|Heart|Mono-modal MRI (20 Training + 10 Testing) |0.93|96.74|92.49|
+|Hippocampus head and body|Mono-modal MRI (263 Training + 131 Testing)|0.90/0.89|90/88.69|89.37/87.96|
+|Liver & Tumor|Portal venous phase CT  (131 Training + 70 Testing)|0.95/0.74|95.75/75.97|94.98/72.89|
+|Lung|CT (64 Training + 32 Testing)|0.69|73.97|70.44|
+|Pancreas & Tumor|Portal venous phase CT (282 Training +139 Testing) |0.80/0.52|81.64/52.78|80.76/54.41|
+|Prostate central gland and peripheral|Multimodal MR (T2, ADC) (32 Training + 16 Testing)|0.76/0.90|76.59/89.62|74.88/88.75|
+|Hepatic vessel& Tumor| CT, (303 Training + 140 Testing)|0.63/0.69|66.46/71.78|64.73/71|
+|Spleen|CT (41 Training + 20 Testing)|0.96|97.43|96.28|
+|Colon|CT (41 Training + 20 Testing)|0.56|58.33|58.90|
 
 > Only showing Dice Score.
 
 ### Recent papers on Medical Segmentation Decathlon
 |Date|First Author |Title|Score|
 |---|---|---|---|
+|20181129|Yingda Xia|3D Semi-Supervised Learning with Uncertainty-Aware Multi-View Co-Training [(paper)](https://arxiv.org/abs/1811.12506)|no test set score|
 |20190606|Zhuotun Zhu|V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation [(arxiv)](https://arxiv.org/abs/1906.02817)|Lung tumor: 55.27; Pancreas and tumor: 79.94, 37.78 (4-fold CV)|
-
 
 
 # Past Challenges (New submission closed)
