@@ -207,6 +207,7 @@ Recent results can be found [here](https://decathlon-10.grand-challenge.org/eval
 |awesome-semantic-segmentation|mrgloom|[awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)|3000+ stars|
 |Segmentation|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|nnU-Net [(paper)](https://arxiv.org/abs/1904.08128) [(code)](https://github.com/MIC-DKFZ/nnUNet)|500+stars|
 |MedImgIO| [Fernando Pérez García](https://uk.linkedin.com/in/fernandoperezgarcia)|TorchIO: tools for loading, augmenting and writing 3D medical images on PyTorch [(code)](https://github.com/fepegar/torchio)|100+stars|
+|Segmentation|[DLinRadiology](https://twitter.com/DLinRadiology)|MegSeg: a free segmentation tool for radiological images (CT and MRI)|[homepage](http://medicalsegmentation.com/)|
 
 ## Loss functions for Segmentation [(paper & code)](https://github.com/JunMa11/SegLoss)
 
