@@ -11,6 +11,7 @@
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
 **Chest & Abdomen**
+- 2020 MICCAI: MyoPS 2020: Myocardial pathology segmentation combining multi-sequence CMR [(Homepage)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
 - 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Results)](https://verse2019.grand-challenge.org/VerSe_at_MICCAI19/)
 - 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge
 - 2018 MICCAI: Left Ventricle Full Quantification Challenge 
@@ -31,11 +32,14 @@
 
 ## Ongoing Challenges
 
-- 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
-> - Train/validation set prediction submission and ICIAR 2020 paper submission deadline: 10 February, 2020
-> - Test set release: 11 February, 2020
-> - Test set prediction submission deadline: 17 February, 2020
-> - Results announcement: 18 February, 2020
+### 2020 MICCAI-MyoPS: Myocardial pathology segmentation combining multi-sequence CMR [(MyoPS 2020)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
+
+> Data release: 2020-April-01st
+> Submission: 2020-July-15th
+> Notification: 2020-July-23rd
+
+### 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
+> [Results](https://lndb.grand-challenge.org/evaluation/results/)
 
 
 ## Challenges on Open Leaderboard Phase
