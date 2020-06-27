@@ -41,6 +41,10 @@
 ### 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
 > [Results](https://lndb.grand-challenge.org/evaluation/results/)
 
+|Date|First Author |Title|Iou|Remark|
+|---|---|---|---|---|
+|20200625|Alexandr G. Rassadin|Deep Residual 3D U-Net for Joint Segmentation and Texture Classification of Nodules in Lung [(arxiv)](https://arxiv.org/abs/2006.14215)|0.5221|1st Place in Seg. Task|
+
 
 ## Challenges on Open Leaderboard Phase
 
