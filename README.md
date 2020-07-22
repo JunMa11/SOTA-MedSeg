@@ -62,12 +62,12 @@
 ### 2019 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS19)](https://kits19.grand-challenge.org/)
 **[Leaderboard (2019/07/30)](http://results.kits-challenge.org/miccai2019/)**
 
-|Date|First Author |Title|Composite Dice|Kidney Dice|Tumor Dice|Remark|
-|---|---|---|---|---|---|---|
-|20190730|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|An attempt at beating the 3D U-Net [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/Isensee_1.pdf)|0.9123|0.9737|0.8509|1st Place|
-|20190730|Xiaoshuai Hou |Cascaded Semantic Segmentation for Kidney and Tumor [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/PingAnTech_3.pdf)|0.9064|0.9674|0.8454|2nd Place|
-|20190730|Guangrui Mu|Segmentation of kidney tumor by multi-resolution VB-nets [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/gr_6.pdf)|0.9025|0.9729|0.8321|3rd Place|
- 
+|Date|First Author |Title|Composite Dice|Kidney Dice|Tumor Dice|
+|---|---|---|---|---|---|
+|202004|[Fabian Isensee](https://scholar.google.com.hk/citations?user=PjerEe4AAAAJ&hl=en&oi=sra)|Automated Design of Deep Learning Methods for Biomedical Image Segmentation [(arxiv)](https://arxiv.org/abs/1904.08128) |0.9168|0.9793|0.8542|
+|20190730|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|An attempt at beating the 3D U-Net [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/Isensee_1.pdf)|0.9123|0.9737|0.8509|
+|20190730|Xiaoshuai Hou |Cascaded Semantic Segmentation for Kidney and Tumor [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/PingAnTech_3.pdf)|0.9064|0.9674|0.8454|
+|20190730|Guangrui Mu|Segmentation of kidney tumor by multi-resolution VB-nets [(paper)](http://results.kits-challenge.org/miccai2019/manuscripts/gr_6.pdf)|0.9025|0.9729|0.8321|
 
 
 ### 2017 ISBI & MICCAI: Liver tumor segmentation challenge [(LiTS)](https://competitions.codalab.org/competitions/17094)
@@ -75,6 +75,7 @@
 
 |Date|First Author |Title|Liver Per Case Dice|Liver Global Dice|Tumor Per Case Dice|Tumor Global Dice|
 |---|---|---|---|---|---|---|
+|202004|[Fabian Isensee](https://scholar.google.com.hk/citations?user=PjerEe4AAAAJ&hl=en&oi=sra)|Automated Design of Deep Learning Methods for Biomedical Image Segmentation [(arxiv)](https://arxiv.org/abs/1904.08128) |0.967|0.970|0.763|0.858|
 |201909|[Xudong Wang](https://scholar.google.com.hk/citations?user=RyS4ueAAAAAJ&hl=zh-CN&oi=sra)|Volumetric Attention for 3D Medical Image Segmentation and Detection [(MICCAI2019)](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_20)|-|-|0.741|-|
 |201908|Jianpeng Zhang|Light-Weight Hybrid Convolutional Network for Liver Tumor Segmentation [(IJCAI 2019)](https://doi.org/10.24963/ijcai.2019/593)|0.965|0.968|0.730|0.820|
 |202007|Youbao Tang|E^2Net: An Edge Enhanced Network for Accurate Liver and Tumor Segmentation on CT Scans [(arXiv)](https://arxiv.org/abs/2007.09791v1)|0.966|0.968|0.724|0.829|
