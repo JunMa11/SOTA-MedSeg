@@ -73,12 +73,13 @@
 ### 2017 ISBI & MICCAI: Liver tumor segmentation challenge [(LiTS)](https://competitions.codalab.org/competitions/17094)
 *Summary: The Liver Tumor Segmentation Benchmark (LiTS), Patrick Bilic et al. 201901 [(arxiv)](https://arxiv.org/abs/1901.04056)*
 
-|Date|First Author |Title|Liver Dice|Tumor Dice|
-|---|---|---|---|---|
-|201909|[Xudong Wang](https://scholar.google.com.hk/citations?user=RyS4ueAAAAAJ&hl=zh-CN&oi=sra)|Volumetric Attention for 3D Medical Image Segmentation and Detection [(MICCAI2019)](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_20)|-|0.741|
-|201908|Jianpeng Zhang|Light-Weight Hybrid Convolutional Network for Liver Tumor Segmentation [(IJCAI 2019)](https://doi.org/10.24963/ijcai.2019/593)|0.965|0.730|
-|201709|[Xiaomeng Li](https://scholar.google.ca/citations?user=uVTzPpoAAAAJ&hl=zh-CN&oi=sra)| H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes, [(TMI)](https://arxiv.org/abs/1709.07330), [(Keras code)](https://github.com/xmengli999/H-DenseUNet) |0.961|0.722|
-|201912|Karsten Roth|Boosting Liver and Lesion Segmentation from CT Scans by Mask Mining [(MedNeurIPS2019)](https://profs.etsmtl.ca/hlombaert/public/medneurips2019/36_CameraReadySubmission_NeurIPS_Workshop_MedImage_CameraReady.pdf)|0.947|0.63|
+|Date|First Author |Title|Liver Per Case Dice|Liver Global Dice|Tumor Per Case Dice|Tumor Global Dice|
+|---|---|---|---|---|---|---|
+|201909|[Xudong Wang](https://scholar.google.com.hk/citations?user=RyS4ueAAAAAJ&hl=zh-CN&oi=sra)|Volumetric Attention for 3D Medical Image Segmentation and Detection [(MICCAI2019)](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_20)|-|-|0.741|-|
+|201908|Jianpeng Zhang|Light-Weight Hybrid Convolutional Network for Liver Tumor Segmentation [(IJCAI 2019)](https://doi.org/10.24963/ijcai.2019/593)|0.965|0.968|0.730|0.820|
+|202007|Youbao Tang|E^2Net: An Edge Enhanced Network for Accurate Liver and Tumor Segmentation on CT Scans [(arXiv)](https://arxiv.org/abs/2007.09791v1)|0.966|0.968|0.724|0.829|
+|201709|[Xiaomeng Li](https://scholar.google.ca/citations?user=uVTzPpoAAAAJ&hl=zh-CN&oi=sra)| H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes, [(TMI)](https://arxiv.org/abs/1709.07330), [(Keras code)](https://github.com/xmengli999/H-DenseUNet) |0.961|0.965|0.722|0.824|
+
 
 
 ### 2012 MICCAI: Prostate MR Image Segmentation [(PROMISE12)](https://promise12.grand-challenge.org/)
