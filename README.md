@@ -1,7 +1,8 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202003)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202007)
 
 ## Contents
-**Head**
+**Head and Neck**
+- 2020 MICCAI: Thyroid nodule segmentation and classification challenge [(TN-SCUI 2020)](https://tn-scui2020.grand-challenge.org/Home/). [(Results)](https://tn-scui2020.grand-challenge.org/evaluation/leaderboard/)
 - 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
 - 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Results)](http://braintumorsegmentation.org/)
 - 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
