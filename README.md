@@ -1,7 +1,15 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202007)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202010)
 
 ## Contents
 **Head and Neck**
+
+- 2020 MICCAI: Retinal Fundus Glaucoma Challenge Edition2 [(REFUGE2)](https://refuge.grand-challenge.org/) [(Results)](https://refuge.grand-challenge.org/evaluation/challenge/leaderboard/)
+- 2020 MICCAI: Brain Tumor Segmentation Challenge [(BraTS)](https://www.med.upenn.edu/cbica/brats2020/) [(Results)](https://www.med.upenn.edu/cbica/brats2020/rankings.html)
+- 2020 MICCAI: [CATARACTS Semantic Segmentation](https://cataracts-semantic-segmentation2020.grand-challenge.org/) 
+- 2020 MICCAI: Anatomical Brain Barriers to Cancer Spread: Segmentation from CT and MR Images [(ABCs)](https://abcs.mgh.harvard.edu/) [(Results)](https://abcs.mgh.harvard.edu/index.php/leader-board)
+- 2020 MICCAI: 3D Head and Neck Tumor Segmentation [(HECKTOR)](https://www.aicrowd.com/challenges/hecktor) [(Results)](https://www.aicrowd.com/challenges/miccai-2020-hecktor/leaderboards)
+- 2020 MICCAI: Cerebral Aneurysm Segmentation [(CADA)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://cada-as.grand-challenge.org/FinalRanking/)
+- 2020 MICCAI: Aneurysm Detection And segMenation Challenge 2020 [(ADAM)](http://adam.isi.uu.nl/) [(Results)](http://adam.isi.uu.nl/results/results-miccai-2020/)
 - 2020 MICCAI: Thyroid nodule segmentation and classification challenge [(TN-SCUI 2020)](https://tn-scui2020.grand-challenge.org/Home/). [(Results)](https://tn-scui2020.grand-challenge.org/evaluation/leaderboard/)
 - 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
 - 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Results)](http://braintumorsegmentation.org/)
@@ -12,6 +20,9 @@
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
 **Chest & Abdomen**
+- 2020 MICCAI: Large Scale Vertebrae Segmentation Challenge [(VerSe)](https://verse2020.grand-challenge.org/) [(Results)](https://verse2020.grand-challenge.org/evaluation/challenge/leaderboard/)
+- 2020 MICCAI: Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(EMIDEC)](http://emidec.com/)
+- 2020 MICCAI: Automated Segmentation of Coronary Arteries [(ASOCA)](https://asoca.grand-challenge.org/) [(Results)](https://asoca.grand-challenge.org/evaluation/challenge/leaderboard/)
 - 2020 MICCAI: MyoPS 2020: Myocardial pathology segmentation combining multi-sequence CMR [(Homepage)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
 - 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Results)](https://verse2019.grand-challenge.org/VerSe_at_MICCAI19/)
 - 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge
@@ -23,7 +34,8 @@
 - 2012 MICCAI: Prostate MR Image Segmentation 
 
 **Others**
-- 2018 MICCAI Medical Segmentation Decathlon
+- 2018 MICCAI Medical Segmentation Decathlon [(MSD)](http://medicaldecathlon.com/) [(Results)](https://decathlon-10.grand-challenge.org/evaluation/challenge/leaderboard/)
+- Quantification of Uncertainties in Biomedical Image Quantification Challenge [(QUBIQ)](https://qubiq.grand-challenge.org/) [(Results)](https://qubiq.grand-challenge.org/evaluation/challenge/leaderboard/)
 - Awesome Open Source Tools
 - Loss functions for class imbalanced Problems
 
@@ -33,11 +45,45 @@
 
 ## Ongoing Challenges
 
-### 2020 MICCAI-MyoPS: Myocardial pathology segmentation combining multi-sequence CMR [(MyoPS 2020)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
 
-> Data release: 2020-April-01st
-> Submission: 2020-July-15th
-> Notification: 2020-July-23rd
+
+## Aneurysm Detection And segMenation Challenge 2020 [(ADAM)](http://adam.isi.uu.nl/) [(Results)](http://adam.isi.uu.nl/results/results-miccai-2020/)
+
+
+
+| Date     | First Author    | Title                                                        | DSC  | MHD   | VS   | Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ------------------------ |
+| 20201008 | Jun Ma          | Loss Ensembles for Intracranial Aneurysm Segmentation: An Embarrassingly Simple Method [(Code)](https://github.com/JunMa11/ADAM2020) | 0.41 | 8.96  | 0.50 | 1st Place in MICCAI 2020 |
+| 20201008 | Yuexiang Li     | Automatic Aneurysm Segmentation via 3D U-Net Ensemble        | 0.40 | 8.67  | 0.48 | 2nd Place in MICCAI 2020 |
+| 20201008 | Riccardo De Feo | Multi-loss CNN ensemblesfor aneurysm segmentation            | 0.28 | 18.13 | 0.39 | 3rd Place in MICCAI 2020 |
+
+
+
+
+
+## Multi-Centre, Multi-Vendor & Multi-Disease Cardiac Image Segmentation Challenge [(M&Ms)](https://www.ub.edu/mnms/) [(Results)](https://www.ub.edu/mnms/)
+
+
+
+| Date     | First Author | Title                                                        | LV    | MYO   | RV    | Remark                   |
+| -------- | ------------ | ------------------------------------------------------------ | ----- | ----- | ----- | ------------------------ |
+| 20201004 | Peter Full   | The effect of Data Augmentation on Robustness against Domain Shifts in cMRI Segmentation | 0.910 | 0.849 | 0.884 | 1st Place in MICCAI 2020 |
+| 20201004 | Yao Zhang    | Semi-Supervised Cardiac Image Segmentation via Label Propagation and Style Transfer | 0.906 | 0.840 | 0.878 | 2nd Place in MICCAI 2020 |
+| 20201004 | Jun Ma       | Histogram Matching Augmentation for Domain Adaptation [(code)](https://github.com/JunMa11/HM_DataAug) | 0.902 | 0.835 | 0.874 | 3rd Place in MICCAI 2020 |
+
+> Dice values are reported. Video records are available on [pathable](https://miccai2020.pathable.co/meetings/virtual/9s68Ygc7KbQqDg3ZR). All the papers are in press
+
+## 2020 MICCAI: Thyroid nodule segmentation and classification challenge [(TN-SCUI 2020)](https://tn-scui2020.grand-challenge.org/Home/). [(Results)](https://tn-scui2020.grand-challenge.org/evaluation/leaderboard/)
+
+| Date     | First Author | Title                                                        | Iou    | Remark                   |
+| -------- | ------------ | ------------------------------------------------------------ | ------ | ------------------------ |
+| 20201004 | Mingyu Wang  | A Simple Cascaded Framework for Automatically Segmenting Thyroid Nodules  [(code)](https://github.com/WAMAWAMA/TNSCUI2020-Seg-Rank1st) | 0.8254 | 1st Place in MICCAI 2020 |
+| 20201004 | Huai Chen    | LRTHR-Net: A Low-Resolution-to-High-Resolution Framework to Iteratively Refine the Segmentation of Thyroid Nodule in Ultrasound Images |        | 2nd Place                |
+| 20201004 | Zhe Tang     | Coarse to Fine Ensemble Network for Thyroid Nodule Segmentation |        | 3rd Place                |
+
+> Video  records are available on [pathable](https://miccai2020.pathable.co/meetings/virtual/PCm5naT39rprt2MXC)
+
+
 
 ### 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
 > [Results](https://lndb.grand-challenge.org/evaluation/results/)
@@ -49,18 +95,14 @@
 
 ## Challenges on Open Leaderboard Phase
 
-### 2019 MICCAI: Structure Segmentation for Radiotherapy Planning [(StructSeg)](https://structseg2019.grand-challenge.org/)
-> [Results](http://www.structseg-challenge.org/#/)
 
-|Date|First Author |Title|Head & Neck OAR|Head & Neck GTV|Chest OAR|Chest GTV|
-|---|---|---|---|---|---|---|
-|20191001|Huai Chen|TBD|0.8109|0.6666|0.9011|0.5406|
-|20191001|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|nnU-Net|0.7988|0.6398|0.9083|0.5343|
-|20191001|Yujin Hu|TBD|0.7956|0.6245|0.9024|0.5447|
-|20191001|Xuechen Liu|TBD|-|-|0.9066|-|
+
+
+
 
 
 ### 2019 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS19)](https://kits19.grand-challenge.org/)
+
 **[Leaderboard (2019/07/30)](http://results.kits-challenge.org/miccai2019/)**
 
 |Date|First Author |Title|Composite Dice|Kidney Dice|Tumor Dice|
@@ -100,7 +142,7 @@ Recent results can be found [here](https://decathlon-10.grand-challenge.org/eval
 
 |Task|Data Info|Fabian Isensee et al. [(paper)](https://arxiv.org/abs/1809.10486)|[nnUNet v2](https://github.com/MIC-DKFZ/nnUNet) | [Qihang Yu](https://scholar.google.com/citations?hl=en&user=7zZdZxsAAAAJ&view_op=list_works&sortby=pubdate) et al. [(paper)](https://arxiv.org/abs/1912.09628)|
 |---|---|---|---|---|
-|Brats|Multimodal multisite MRI data (FLAIR, T1w, T1gd,T2w),  (484 Training + 266 Testing) |0.68/0.48/0.68|68/46.8/68.46| 67.6/48.6/69.7|   
+|Brats|Multimodal multisite MRI data (FLAIR, T1w, T1gd,T2w),  (484 Training + 266 Testing) |0.68/0.48/0.68|68/46.8/68.46| 67.6/48.6/69.7|
 |Heart|Mono-modal MRI (20 Training + 10 Testing) |0.93|96.74|92.49|
 |Hippocampus head and body|Mono-modal MRI (263 Training + 131 Testing)|0.90/0.89|90/88.69|89.37/87.96|
 |Liver & Tumor|Portal venous phase CT  (131 Training + 70 Testing)|0.95/0.74|95.75/75.97|94.98/72.89|
@@ -121,7 +163,33 @@ Recent results can be found [here](https://decathlon-10.grand-challenge.org/eval
 
 
 # Past Challenges (New submission closed)
+### 2020 MICCAI-MyoPS: Myocardial pathology segmentation combining multi-sequence CMR [(MyoPS 2020)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
+
+
+
+| Date     | First Author | Title                                                        | Scar          | Scar+Edema    | Remark                   |
+| -------- | ------------ | ------------------------------------------------------------ | ------------- | ------------- | ------------------------ |
+| 20201004 | Shuwei Zhai  | Myocardial Edema and Scar Segmentation using a Coarse-to-Fine Framework with Weighted Ensemble [(paper in press)](https://arxiv.org/abs/2006.14215) | 0.672 (0.244) | 0.731 (0.109) | 1st Place in MICCAI 2020 |
+
+
+
+### 2019 MICCAI: Structure Segmentation for Radiotherapy Planning [(StructSeg)](https://structseg2019.grand-challenge.org/)
+
+> [Results](http://www.structseg-challenge.org/#/)
+
+| Date     | First Author                                                 | Title   | Head & Neck OAR | Head & Neck GTV | Chest OAR | Chest GTV |
+| -------- | ------------------------------------------------------------ | ------- | --------------- | --------------- | --------- | --------- |
+| 20191001 | Huai Chen                                                    | TBD     | 0.8109          | 0.6666          | 0.9011    | 0.5406    |
+| 20191001 | [Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en) | nnU-Net | 0.7988          | 0.6398          | 0.9083    | 0.5343    |
+| 20191001 | Yujin Hu                                                     | TBD     | 0.7956          | 0.6245          | 0.9024    | 0.5447    |
+| 20191001 | Xuechen Liu                                                  | TBD     | -               | -               | 0.9066    | -         |
+
+
+
+
+
 ### 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge [(MS-CMRSeg)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/)
+
 > Multi-sequence ventricle and myocardium segmentation.
 
 |Date|First Author |Title|LV|Myo|RV|
