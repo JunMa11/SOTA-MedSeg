@@ -34,10 +34,10 @@
 - 2012 MICCAI: Prostate MR Image Segmentation 
 
 **Others**
-- 2018 MICCAI Medical Segmentation Decathlon [(MSD)](http://medicaldecathlon.com/) [(Results)](https://decathlon-10.grand-challenge.org/evaluation/challenge/leaderboard/)
-- Quantification of Uncertainties in Biomedical Image Quantification Challenge [(QUBIQ)](https://qubiq.grand-challenge.org/) [(Results)](https://qubiq.grand-challenge.org/evaluation/challenge/leaderboard/)
+- 2018 MICCAI: Medical Segmentation Decathlon [(MSD)](http://medicaldecathlon.com/) [(Results)](https://decathlon-10.grand-challenge.org/evaluation/challenge/leaderboard/)
+- 2020 MICCAI: Quantification of Uncertainties in Biomedical Image Quantification Challenge [(QUBIQ)](https://qubiq.grand-challenge.org/) [(Results)](https://qubiq.grand-challenge.org/evaluation/challenge/leaderboard/)
 - Awesome Open Source Tools
-- Loss functions for class imbalanced Problems
+- Loss Odyssey in Medical Image Segmentation
 
 
 
@@ -73,13 +73,15 @@
 
 > Dice values are reported. Video records are available on [pathable](https://miccai2020.pathable.co/meetings/virtual/9s68Ygc7KbQqDg3ZR). All the papers are in press
 
+
+
 ## 2020 MICCAI: Thyroid nodule segmentation and classification challenge [(TN-SCUI 2020)](https://tn-scui2020.grand-challenge.org/Home/). [(Results)](https://tn-scui2020.grand-challenge.org/evaluation/leaderboard/)
 
-| Date     | First Author | Title                                                        | Iou    | Remark                   |
+| Date     | First Author | Title                                                        | IoU    | Remark                   |
 | -------- | ------------ | ------------------------------------------------------------ | ------ | ------------------------ |
 | 20201004 | Mingyu Wang  | A Simple Cascaded Framework for Automatically Segmenting Thyroid Nodules  [(code)](https://github.com/WAMAWAMA/TNSCUI2020-Seg-Rank1st) | 0.8254 | 1st Place in MICCAI 2020 |
-| 20201004 | Huai Chen    | LRTHR-Net: A Low-Resolution-to-High-Resolution Framework to Iteratively Refine the Segmentation of Thyroid Nodule in Ultrasound Images |        | 2nd Place                |
-| 20201004 | Zhe Tang     | Coarse to Fine Ensemble Network for Thyroid Nodule Segmentation |        | 3rd Place                |
+| 20201004 | Huai Chen    | LRTHR-Net: A Low-Resolution-to-High-Resolution Framework to Iteratively Refine the Segmentation of Thyroid Nodule in Ultrasound Images | 0.8196 | 2nd Place in MICCAI 2020 |
+| 20201004 | Zhe Tang     | Coarse to Fine Ensemble Network for Thyroid Nodule Segmentation | 0.8194 | 3rd Place in MICCAI 2020 |
 
 > Video  records are available on [pathable](https://miccai2020.pathable.co/meetings/virtual/PCm5naT39rprt2MXC)
 
@@ -88,7 +90,7 @@
 ### 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
 > [Results](https://lndb.grand-challenge.org/evaluation/results/)
 
-|Date|First Author |Title|Iou|Remark|
+|Date|First Author |Title|IoU|Remark|
 |---|---|---|---|---|
 |20200625|Alexandr G. Rassadin|Deep Residual 3D U-Net for Joint Segmentation and Texture Classification of Nodules in Lung [(arxiv)](https://arxiv.org/abs/2006.14215)|0.5221|1st Place in Seg. Task|
 
@@ -280,16 +282,15 @@ Recent results can be found [here](https://decathlon-10.grand-challenge.org/eval
 
 |Task|First Author|Title|Notes|
 |---|---|---|---|
-|Detection&Segmentation|[Paul F. Jaeger](https://scholar.google.ca/citations?user=9B9-8h0AAAAJ&hl=zh-CN&oi=sra)|Retina U-Net: Embarrassingly Simple Exploitation of Segmentation Supervision for Medical Object Detection, [(paper)](https://arxiv.org/abs/1811.08661), [(code)](https://github.com/pfjaeger/medicaldetectiontoolkit)|pytorch 0.4|
-|Medical Image Analysis|[Eli Gibson](https://scholar.google.ca/citations?user=Wtp-1I8AAAAJ&hl=zh-CN&oi=sra) and [Wenqi Li](https://scholar.google.ca/citations?user=LFDQeh0AAAAJ&hl=zh-CN&oi=sra)|NiftyNet: a deep-learning platform for medical imaging [(paper)](https://arxiv.org/abs/1709.03485?context=cs.NE), [(code)](https://github.com/NifTK/NiftyNet)|Tensorflow 1.12|
-|Segmentation|[Christian S. Perone](http://blog.christianperone.com/)|[MedicalTorch](https://medicaltorch.readthedocs.io/en/stable/)|pytorch>=0.4|
-|awesome-semantic-segmentation|mrgloom|[awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)|3000+ stars|
-|Segmentation|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|nnU-Net [(paper)](https://arxiv.org/abs/1904.08128) [(code)](https://github.com/MIC-DKFZ/nnUNet)|500+stars|
-|MedImgIO| [Fernando Pérez García](https://uk.linkedin.com/in/fernandoperezgarcia)|TorchIO: tools for loading, augmenting and writing 3D medical images on PyTorch [(code)](https://github.com/fepegar/torchio)|100+stars|
+|Detection&Segmentation|[Paul F. Jaeger](https://scholar.google.ca/citations?user=9B9-8h0AAAAJ&hl=zh-CN&oi=sra)|Retina U-Net: Embarrassingly Simple Exploitation of Segmentation Supervision for Medical Object Detection, [(paper)](https://arxiv.org/abs/1811.08661), [(code)](https://github.com/pfjaeger/medicaldetectiontoolkit)|pytorch|
+|Medical Image Analysis|Many excellent contributors|MONAI: **M**edical **O**pen **N**etwork for **AI** [(code)](https://github.com/Project-MONAI/MONAI)|pytorch|
+|Segmentation|[Christian S. Perone](http://blog.christianperone.com/)|[MedicalTorch](https://medicaltorch.readthedocs.io/en/stable/)|pytorch|
+|Segmentation|[Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en)|nnU-Net [(paper)](https://arxiv.org/abs/1904.08128) [(code)](https://github.com/MIC-DKFZ/nnUNet)|pytorch|
+|MedImgIO| [Fernando Pérez García](https://uk.linkedin.com/in/fernandoperezgarcia)|TorchIO: tools for loading, augmenting and writing 3D medical images on PyTorch [(code)](https://github.com/fepegar/torchio)|pytorch|
 |Segmentation|[DLinRadiology](https://twitter.com/DLinRadiology)|MegSeg: a free segmentation tool for radiological images (CT and MRI)|[homepage](http://medicalsegmentation.com/)|
-|Segmentation|Adaloglou Nikolaos|A 3D multi-modal medical image segmentation library in PyTorch [(code)](https://github.com/black0017/MedicalZooPytorch)|pytorch 1.4|
+|Segmentation|Adaloglou Nikolaos|A 3D multi-modal medical image segmentation library in PyTorch [(code)](https://github.com/black0017/MedicalZooPytorch)|pytorch|
 
-## Loss functions for Segmentation [(paper & code)](https://github.com/JunMa11/SegLoss)
+## Segmentation Loss Odyssey (paper & code)](https://github.com/JunMa11/SegLoss)
 
 
 ## Contribute
