@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202010)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202101)
 
 ## Contents
 **Head and Neck**
@@ -45,7 +45,22 @@
 
 ## Ongoing Challenges
 
+## 2020 MICCAI: Cerebral Aneurysm Segmentation [(CADA)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://cada-as.grand-challenge.org/FinalRanking/)
 
+| Date     | First Author    | Title                                                        | IoU  | HD   | MD   | Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ------------------------ |
+| 20201008 | Mediclouds     | TBA        | 0.758 | 2.866 | 1.618 | 1st Place in MICCAI 2020 |
+| 20201008 | Jun Ma          | Exploring Large Context for Cerebral Aneurysm Segmentation [(arxiv)](https://arxiv.org/abs/2012.15136) [(Code)](https://github.com/JunMa11/ADAM2020) | 0.759 | 4.967  | 3.535 | 2nd Place in MICCAI 2020 |
+
+## 2020 MICCAI: Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(EMIDEC)](http://emidec.com/)
+
+| Date     | First Author    | Title                                                        | Myo  | Infarction   | Re-flow   | Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ------------------------ |
+| 20201008 | Yichi Zhang     | Cascaded Convolutional Neural Network for Automatic Myocardial Infarction Segmentation from Delayed-Enhancement Cardiac MRI [(arxiv)](https://arxiv.org/abs/2012.14128)       | 0.8786 | 0.7124 | 0.7851 | 1st Place in MICCAI 2020 |
+| 20201008 | Jun Ma          | Cascaded Framework for Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(arxiv)](https://arxiv.org/abs/2012.14556) | 0.8628 | 0.6224  | 0.7776 | 2nd Place in MICCAI 2020 |
+| 20201008 | Xue Feng        |  Automatic Scar Segmentation from DE-MRI Using 2D Dilated UNet with Rotation-based Augmentation [(paper)](http://emidec.com/downloads/papers/paper-24.pdf) | 0.8356 | 0.4568  | 0.7222 | 3rd Place in MICCAI 2020 |
+
+> Metrics: DSC
 
 ## Aneurysm Detection And segMenation Challenge 2020 [(ADAM)](http://adam.isi.uu.nl/) [(Results)](http://adam.isi.uu.nl/results/results-miccai-2020/)
 
