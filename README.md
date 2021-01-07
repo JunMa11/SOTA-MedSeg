@@ -39,8 +39,16 @@
 - Awesome Open Source Tools
 - Loss Odyssey in Medical Image Segmentation
 
+**Survey**
 
-
+```
+@article{Ma-SOTASeg2020,
+  title={Cutting-edge 3D Medical Image Segmentation Methods in 2020: Are Happy Families All Alike?},
+  author={Jun Ma},
+  journal={arXiv preprint arXiv:2101.00232},
+  year={2021}
+}
+```
 
 
 ## Ongoing Challenges
