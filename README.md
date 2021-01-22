@@ -96,6 +96,12 @@
 
 > Dice values are reported. Video records are available on [pathable](https://miccai2020.pathable.co/meetings/virtual/9s68Ygc7KbQqDg3ZR). All the papers are in press
 
+## 2020 MICCAI: 3D Head and Neck Tumor Segmentation in PET/CT [(HECKTOR 2020)](https://www.aicrowd.com/challenges/hecktor). [(Results)](https://www.aicrowd.com/challenges/miccai-2020-hecktor/leaderboards)
+
+| Date     | First Author | Title                                                        | DSC    | Remark                   |
+| -------- | ------------ | ------------------------------------------------------------ | ------ | ------------------------ |
+| 20201004 | Andrei Iantsen  | Squeeze-and-Excitation Normalization for Automated Delineation of Head and Neck Primary Tumors in Combined PET and CT Images  [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-67194-5_4) | 0.759 | 1st Place in MICCAI 2020 |
+| 20201004 | Jun Ma    | Combining CNN and Hybrid Active Contours for Head and Neck Tumor Segmentation in CT and PET Images [(paper)](https://link.springer.com/chapter/10.1007/978-3-030-67194-5_7)  | 0.752 | 2nd Place in MICCAI 2020 |
 
 
 ## 2020 MICCAI: Thyroid nodule segmentation and classification challenge [(TN-SCUI 2020)](https://tn-scui2020.grand-challenge.org/Home/). [(Results)](https://tn-scui2020.grand-challenge.org/evaluation/leaderboard/)
