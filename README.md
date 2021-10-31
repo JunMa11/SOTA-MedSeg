@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202101)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202110)
 
 ## Contents
 **Head and Neck**
@@ -20,6 +20,7 @@
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
 **Chest & Abdomen**
+- 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS2021)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
 - 2020 MICCAI: Large Scale Vertebrae Segmentation Challenge [(VerSe)](https://verse2020.grand-challenge.org/) [(Results)](https://verse2020.grand-challenge.org/evaluation/challenge/leaderboard/)
 - 2020 MICCAI: Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(EMIDEC)](http://emidec.com/)
 - 2020 MICCAI: Automated Segmentation of Coronary Arteries [(ASOCA)](https://asoca.grand-challenge.org/) [(Results)](https://asoca.grand-challenge.org/evaluation/challenge/leaderboard/)
@@ -52,6 +53,20 @@
 
 
 ## Ongoing Challenges
+
+## 2021 MICCAI: Fast and Low GPU memory Abdominal oRgan sEgmentation [(FLARE)](https://flare.grand-challenge.org/) [(Results)](https://flare.grand-challenge.org/Awards/)
+
+| Date     | First Author    | Title                                                        | DSC  | NSD   | Time | GPU Memory | Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ----  | ------------------------ |
+| 202110 | Fan Zhang     | Efficient Context-Aware Network for Abdominal Multi-organ Segmentation  [(paper)](https://github.com/JunMa11/FLARE2021/blob/main/FLARE21-ShortPapers/fosun_aitrox.pdf) [(code)](https://github.com/Shanghai-Aitrox-Technology/EfficientSegmentation) | 0.895 | 0.796 | 9.32 | 1177 | 1st Place in MICCAI 2021 |
+
+ 
+## 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
+
+| Date     | First Author    | Title                                                        | DSC  | NSD   | Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ------------------------ |
+| 202110 | Zhaozhong Chen     | A Coarse-to-fine Framework for The 2021 Kidney and Kidney Tumor Segmentation Challenge [(paper)](https://openreview.net/forum?id=6Py5BNBKoJt)        | 0.9077 | 0.8262 | 1st Place in MICCAI 2021 |
+
 
 ## 2020 MICCAI: Cerebral Aneurysm Segmentation [(CADA)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://cada-as.grand-challenge.org/FinalRanking/)
 
