@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 202110)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 2021-11)
 
 ## Contents
 **Head and Neck**
@@ -129,7 +129,11 @@
 
 > Video  records are available on [pathable](https://miccai2020.pathable.co/meetings/virtual/PCm5naT39rprt2MXC)
 
+## Endoscopy Computer Vision Challenge [(EndoCV2020)](https://endocv.grand-challenge.org/)
 
+| Date     | First Author | Title                                                        | Avg F1 and F2    | Remark                   |
+| -------- | ------------ | ------------------------------------------------------------ | ------ | ------------------------ |
+| 202004 | Vajira Thambawita  | DivergentNets: Medical Image Segmentation by Network Ensemble [(paper)](http://ceur-ws.org/Vol-2886/paper3.pdf)  [(code)](https://github.com/vlbthambawita/divergent-nets) | 0.823 | 1st Place in ISBI EndoCV 2020 |
 
 ### 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
 > [Results](https://lndb.grand-challenge.org/evaluation/results/)
