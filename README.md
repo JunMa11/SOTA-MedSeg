@@ -20,7 +20,7 @@
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
 **Chest & Abdomen**
-- 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS2021)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
+- 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS2021)](https://kits21.kits-challenge.org/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
 - 2020 MICCAI: Large Scale Vertebrae Segmentation Challenge [(VerSe)](https://verse2020.grand-challenge.org/) [(Results)](https://verse2020.grand-challenge.org/evaluation/challenge/leaderboard/)
 - 2020 MICCAI: Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(EMIDEC)](http://emidec.com/)
 - 2020 MICCAI: Automated Segmentation of Coronary Arteries [(ASOCA)](https://asoca.grand-challenge.org/) [(Results)](https://asoca.grand-challenge.org/evaluation/challenge/leaderboard/)
@@ -61,7 +61,8 @@
 | 202110 | Fan Zhang     | Efficient Context-Aware Network for Abdominal Multi-organ Segmentation  [(paper)](https://github.com/JunMa11/FLARE2021/blob/main/FLARE21-ShortPapers/fosun_aitrox.pdf) [(code)](https://github.com/Shanghai-Aitrox-Technology/EfficientSegmentation) | 0.895 | 0.796 | 9.32 | 1177 | 1st Place in MICCAI 2021 |
 
  
-## 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
+## 2021 MICCAI: Kidney Tumor Segmentation Challenge [(
+)](https://kits21.kits-challenge.org/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
 
 | Date     | First Author    | Title                                                        | DSC  | NSD   | Remark                   |
 | -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ------------------------ |
