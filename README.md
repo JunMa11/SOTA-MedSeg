@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 2021-11)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 2022-01)
 
 ## Contents
 **Head and Neck**
@@ -53,6 +53,13 @@
 
 
 ## Ongoing Challenges
+
+## 2021 ISBI: MitoEM Challenge: Large-scale 3D Mitochondria Instance Segmentation ([MitoEM](https://mitoem.grand-challenge.org/)) ([Results](https://mitoem.grand-challenge.org/evaluation/challenge/leaderboard/))
+
+| Date     | First Author    | Title                                                        | MitoEM-R  | MitoEM-H   | Average |  Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ----  | ------------------------ |
+| 202104 | Mingxing Li     | Advanced Deep Networks for 3D Mitochondria Instance Segmentation  [(paper)](https://arxiv.org/abs/2104.07961) [(code)](https://github.com/Limingxing00/MitoEM2021-Challenge) | 0.851 | 0.829 | 0.840 | 1st Place in ISBI 2021 |
+
 
 ## 2021 MICCAI: Fast and Low GPU memory Abdominal oRgan sEgmentation [(FLARE)](https://flare.grand-challenge.org/) [(Results)](https://flare.grand-challenge.org/Awards/)
 
