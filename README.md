@@ -20,8 +20,9 @@
 - 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
 
 **Chest & Abdomen**
-- 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS2021)](https://kits21.grand-challenge.org/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
-- 2020 MICCAI: Large Scale Vertebrae Segmentation Challenge [(VerSe)](https://verse2020.grand-challenge.org/) [(Results)](https://verse2020.grand-challenge.org/evaluation/challenge/leaderboard/)
+- 2022 MICCAI: Multi-Modality Abdominal Multi-Organ Segmentation Challenge [(AMOS22)](https://amos22.grand-challenge.org/)  [(Results)](https://amos22.grand-challenge.org/final-ranking/)
+- 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS21)](https://kits21.grand-challenge.org/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
+- 2020 MICCAI: Large Scale Vertebrae Segmentation Challenge [(VerSe2020)](https://verse2020.grand-challenge.org/) [(Results)](https://verse2020.grand-challenge.org/evaluation/challenge/leaderboard/)
 - 2020 MICCAI: Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(EMIDEC)](http://emidec.com/)
 - 2020 MICCAI: Automated Segmentation of Coronary Arteries [(ASOCA)](https://asoca.grand-challenge.org/) [(Results)](https://asoca.grand-challenge.org/evaluation/challenge/leaderboard/)
 - 2020 MICCAI: MyoPS 2020: Myocardial pathology segmentation combining multi-sequence CMR [(Homepage)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
@@ -54,6 +55,13 @@
 
 ## Ongoing Challenges
 
+## 2022 MICCAI: Multi-Modality Abdominal Multi-Organ Segmentation Challenge [(AMOS22)](https://amos22.grand-challenge.org/)  [(Results)](https://amos22.grand-challenge.org/final-ranking/)
+
+| Date     | First Author    | Title                                                        | Task 1-DSC  | Task 1-NSD   | Task 2-DSC | Task 2-NSD | Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ----  | ------------------------ |
+| 202209 | 	Fabian Isensee, Constantin Ulrich and Tassilo Wald     | Extending nnU-Net is all you need  [(paper)](https://arxiv.org/abs/2208.10791) [(code)](https://github.com/MIC-DKFZ/nnUNet) | TBA | TBA | TBA | TBA | 1st Place in MICCAI 2022 |
+
+
 ## 2021 ISBI: MitoEM Challenge: Large-scale 3D Mitochondria Instance Segmentation ([MitoEM](https://mitoem.grand-challenge.org/)) ([Results](https://mitoem.grand-challenge.org/evaluation/challenge/leaderboard/))
 
 | Date     | First Author    | Title                                                        | MitoEM-R  | MitoEM-H   | Average |  Remark                   |
@@ -65,7 +73,7 @@
 
 | Date     | First Author    | Title                                                        | DSC  | NSD   | Time | GPU Memory | Remark                   |
 | -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ----  | ------------------------ |
-| 202110 | Fan Zhang     | Efficient Context-Aware Network for Abdominal Multi-organ Segmentation  [(paper)](https://github.com/JunMa11/FLARE2021/blob/main/FLARE21-ShortPapers/fosun_aitrox.pdf) [(code)](https://github.com/Shanghai-Aitrox-Technology/EfficientSegmentation) | 0.895 | 0.796 | 9.32 | 1177 | 1st Place in MICCAI 2021 |
+| 202110 | Fan Zhang     | Efficient Context-Aware Network for Abdominal Multi-organ Segmentation  [(paper)](https://github.com/JunMa11/FLARE/blob/main/FLARE21/ShortPapers/fosun_aitrox.pdf) [(code)](https://github.com/Shanghai-Aitrox-Technology/EfficientSegmentation) | 0.895 | 0.796 | 9.32 | 1177 | 1st Place in MICCAI 2021 |
 
  
 ## 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS)](https://kits21.grand-challenge.org/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
