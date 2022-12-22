@@ -55,6 +55,14 @@
 
 ## Ongoing Challenges
 
+## 2022 MICCAI: Brain Tumor Segmentation [(BraTS2022)](https://www.synapse.org/#!Synapse:syn27046444/wiki/616571)
+
+| Date     | First Author    | Title                                                        | ET DSC  | TC DSC   | WT DSC                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | 
+| 202209 | Ramy A. Zeineldin	| Multimodal CNN Networks for Brain Tumor Segmentation in MRI: A BraTS 2022 Challenge Solution [(paper)](https://arxiv.org/abs/2212.09310)  | 0.8438 | 0.8753 | 0.9271 |
+
+
+
 ## 2022 MICCAI: Multi-Modality Abdominal Multi-Organ Segmentation Challenge [(AMOS22)](https://amos22.grand-challenge.org/)  [(Results)](https://amos22.grand-challenge.org/final-ranking/)
 
 | Date     | First Author    | Title                                                        | Task 1-DSC  | Task 1-NSD   | Task 2-DSC | Task 2-NSD | Remark                   |
