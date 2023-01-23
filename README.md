@@ -4,7 +4,7 @@
 **Head and Neck**
 
 - Brain Tumor Segmentation: BraTS [2019](https://www.med.upenn.edu/cbica/brats2019/data.html), [2020](https://www.med.upenn.edu/cbica/brats2020/), [2021](https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/brain-tumor-ai-challenge-2021), [2022](https://www.synapse.org/#!Synapse:syn27046444/wiki/616571)
-- 
+- Intracranial Hemorrhage Segmentation Challenge on Non-Contrast head CT [(INSTANCE)](https://instance.grand-challenge.org/)
 - Retinal Fundus Glaucoma Challenge Edition2 [(REFUGE2)](https://refuge.grand-challenge.org/) 
 - [CATARACTS Semantic Segmentation](https://cataracts-semantic-segmentation2020.grand-challenge.org/) 
 - Anatomical Brain Barriers to Cancer Spread: Segmentation from CT and MR Images [(ABCs)](https://abcs.mgh.harvard.edu/index.php/leader-board)
@@ -41,6 +41,12 @@
 
 
 ## Ongoing Challenges
+
+## Intracranial Hemorrhage Segmentation Challenge on Non-Contrast head CT [(INSTANCE)](https://instance.grand-challenge.org/)
+
+| Date     | First Author    | Title                                                        | DSC  | NSD   | RVD | HD | Remark                   |
+| -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ----  | ------------------------ |
+| 202301 | 	Xiangyu Li | The state-of-the-art 3D anisotropic intracranial hemorrhage segmentation on non-contrast head CT: The INSTANCE challenge  [(paper)](https://arxiv.org/abs/2301.03281) | 0.7912 | 0.5026 | 0.21 | 29.02 | Summary paper |
 
 ## 2022 MICCAI: Brain Tumor Segmentation [(BraTS2022)](https://www.synapse.org/#!Synapse:syn27046444/wiki/616571)
 
