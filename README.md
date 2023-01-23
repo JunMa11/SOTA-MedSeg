@@ -1,39 +1,36 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 2022-01)
+# State-of-the-art medical image segmentation methods based on various challenges! (Updated 2023-01)
 
 ## Contents
 **Head and Neck**
 
-- 2020 MICCAI: Retinal Fundus Glaucoma Challenge Edition2 [(REFUGE2)](https://refuge.grand-challenge.org/) [(Results)](https://refuge.grand-challenge.org/evaluation/challenge/leaderboard/)
-- 2020 MICCAI: Brain Tumor Segmentation Challenge [(BraTS)](https://www.med.upenn.edu/cbica/brats2020/) [(Results)](https://www.med.upenn.edu/cbica/brats2020/rankings.html)
-- 2020 MICCAI: [CATARACTS Semantic Segmentation](https://cataracts-semantic-segmentation2020.grand-challenge.org/) 
-- 2020 MICCAI: Anatomical Brain Barriers to Cancer Spread: Segmentation from CT and MR Images [(ABCs)](https://abcs.mgh.harvard.edu/) [(Results)](https://abcs.mgh.harvard.edu/index.php/leader-board)
-- 2020 MICCAI: 3D Head and Neck Tumor Segmentation [(HECKTOR)](https://www.aicrowd.com/challenges/hecktor) [(Results)](https://www.aicrowd.com/challenges/miccai-2020-hecktor/leaderboards)
-- 2020 MICCAI: Cerebral Aneurysm Segmentation [(CADA)](https://cada-as.grand-challenge.org/Overview/)  [(Results)](https://cada-as.grand-challenge.org/FinalRanking/)
-- 2020 MICCAI: Aneurysm Detection And segMenation Challenge 2020 [(ADAM)](http://adam.isi.uu.nl/) [(Results)](http://adam.isi.uu.nl/results/results-miccai-2020/)
-- 2020 MICCAI: Thyroid nodule segmentation and classification challenge [(TN-SCUI 2020)](https://tn-scui2020.grand-challenge.org/Home/). [(Results)](https://tn-scui2020.grand-challenge.org/evaluation/leaderboard/)
-- 2020 ICIAR: Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
-- 2019 MICCAI: Multimodal Brain Tumor Segmentation Challenge (BraTS2019) [(Results)](http://braintumorsegmentation.org/)
-- 2019 MICCAI: 6-month Infant Brain MRI Segmentation from Multiple Sites (iSeg2019) [(Results)](http://iseg2019.web.unc.edu/evaluation-results/)
-- 2019 MICCAI: Automatic Structure Segmentation for Radiotherapy Planning Challenge [(Results)](http://www.structseg-challenge.org/#/)
-- 2018 MICCAI: Multimodal Brain Tumor Segmentation Challenge
-- 2018 MICCAI: Ischemic stroke lesion segmentation
-- 2018 MICCAI Grand Challenge on MR Brain Image Segmentation
+- Brain Tumor Segmentation: BraTS [2019](https://www.med.upenn.edu/cbica/brats2019/data.html), [2020](https://www.med.upenn.edu/cbica/brats2020/), [2021](https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/brain-tumor-ai-challenge-2021), [2022](https://www.synapse.org/#!Synapse:syn27046444/wiki/616571)
+- 
+- Retinal Fundus Glaucoma Challenge Edition2 [(REFUGE2)](https://refuge.grand-challenge.org/) 
+- [CATARACTS Semantic Segmentation](https://cataracts-semantic-segmentation2020.grand-challenge.org/) 
+- Anatomical Brain Barriers to Cancer Spread: Segmentation from CT and MR Images [(ABCs)](https://abcs.mgh.harvard.edu/index.php/leader-board)
+- 3D Head and Neck Tumor Segmentation: HECKTOR [2020](https://www.aicrowd.com/challenges/hecktor), [2021](https://www.aicrowd.com/challenges/miccai-2021-hecktor), [2022](https://hecktor.grand-challenge.org/)
+- Cerebral Aneurysm Segmentation [(CADA)](https://cada-as.grand-challenge.org/Overview/) 
+- Aneurysm Detection And segMenation Challenge 2020 [(ADAM)](http://adam.isi.uu.nl/) 
+- Thyroid nodule segmentation and classification challenge [(TN-SCUI 2020)](https://tn-scui2020.grand-challenge.org/Home/)
+- Automatic Lung Cancer Patient Management (LNDb) [(LNDb)](https://lndb.grand-challenge.org/Home/)
+- 6-month Infant Brain MRI Segmentation from Multiple Sites: [iSeg2019](http://iseg2019.web.unc.edu/evaluation-results/), [cSeg2022](https://tarheels.live/cseg2022/)
+
+**Heart**
+
+- Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(EMIDEC)](http://emidec.com/)
+- Automated Segmentation of Coronary Arteries [(ASOCA)](https://asoca.grand-challenge.org/) [(Results)](https://asoca.grand-challenge.org/evaluation/challenge/leaderboard/)
+- MyoPS 2020: Myocardial pathology segmentation combining multi-sequence CMR [(Homepage)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
+
+
 
 **Chest & Abdomen**
-- 2022 MICCAI: Multi-Modality Abdominal Multi-Organ Segmentation Challenge [(AMOS22)](https://amos22.grand-challenge.org/)  [(Results)](https://amos22.grand-challenge.org/final-ranking/)
-- 2021 MICCAI: Kidney Tumor Segmentation Challenge [(KiTS21)](https://kits21.grand-challenge.org/)  [(Results)](https://kits21.grand-challenge.org/evaluation/challenge/leaderboard/)
-- 2020 MICCAI: Large Scale Vertebrae Segmentation Challenge [(VerSe2020)](https://verse2020.grand-challenge.org/) [(Results)](https://verse2020.grand-challenge.org/evaluation/challenge/leaderboard/)
-- 2020 MICCAI: Automatic Evaluation of Myocardial Infarction from Delayed-Enhancement Cardiac MRI [(EMIDEC)](http://emidec.com/)
-- 2020 MICCAI: Automated Segmentation of Coronary Arteries [(ASOCA)](https://asoca.grand-challenge.org/) [(Results)](https://asoca.grand-challenge.org/evaluation/challenge/leaderboard/)
-- 2020 MICCAI: MyoPS 2020: Myocardial pathology segmentation combining multi-sequence CMR [(Homepage)](http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/)
-- 2019 MICCAI: VerSe2019: Large Scale Vertebrae Segmentation Challenge [(Results)](https://verse2019.grand-challenge.org/VerSe_at_MICCAI19/)
-- 2019 MICCAI: Multi-sequence Cardiac MR Segmentation Challenge
-- 2018 MICCAI: Left Ventricle Full Quantification Challenge 
-- 2018 MICCAI: Atrial Segmentation Challenge
-- 2019 MICCAI: Kidney Tumor Segmentation Challenge
-- 2019 ISBI: Segmentation of THoracic Organs at Risk in CT images
-- 2017 ISBI & MICCAI: Liver tumor segmentation challenge 
-- 2012 MICCAI: Prostate MR Image Segmentation 
+
+- Fast and low-resource abdominal organ segmentation: FLARE [2021](https://flare.grand-challenge.org/), [2022](https://flare22.grand-challenge.org/)
+- Multi-Modality Abdominal Multi-Organ Segmentation Challenge [(AMOS22)](https://amos22.grand-challenge.org/)  [(Results)](https://amos22.grand-challenge.org/final-ranking/)
+- Kidney Tumor Segmentation Challenge: [KiTS19](https://kits19.grand-challenge.org/home/), [(KiTS21)](https://kits21.grand-challenge.org/) 
+- Large Scale Vertebrae Segmentation Challenge: [VerSe2019](https://verse2019.grand-challenge.org/VerSe_at_MICCAI19/), [VerSe2020](https://verse2020.grand-challenge.org/)
+
+
 
 **Others**
 - 2018 MICCAI: Medical Segmentation Decathlon [(MSD)](http://medicaldecathlon.com/) [(Results)](https://decathlon-10.grand-challenge.org/evaluation/challenge/leaderboard/)
@@ -41,16 +38,6 @@
 - Awesome Open Source Tools
 - Loss Odyssey in Medical Image Segmentation
 
-**Survey**
-
-```
-@article{Ma-SOTASeg2020,
-  title={Cutting-edge 3D Medical Image Segmentation Methods in 2020: Are Happy Families All Alike?},
-  author={Jun Ma},
-  journal={arXiv preprint arXiv:2101.00232},
-  year={2021}
-}
-```
 
 
 ## Ongoing Challenges
