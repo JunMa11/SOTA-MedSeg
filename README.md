@@ -1,4 +1,4 @@
-# State-of-the-art medical image segmentation methods based on various challenges! (Updated 2023-01)
+# Awesome medical image segmentation methods based on various challenges! (Updated 2023-01)
 
 ## Contents
 **Head and Neck**
