@@ -61,6 +61,7 @@
 | Date     | First Author    | Title                                                        | Task 1-DSC  | Task 1-NSD   | Task 2-DSC | Task 2-NSD | Remark                   |
 | -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ----  | ------------------------ |
 | 202209 | 	Fabian Isensee, Constantin Ulrich and Tassilo Wald     | Extending nnU-Net is all you need  [(paper)](https://arxiv.org/abs/2208.10791) [(code)](https://github.com/MIC-DKFZ/nnUNet) | TBA | TBA | TBA | TBA | 1st Place in MICCAI 2022 |
+| 202303 | 	Saikat Roy     | MedNeXt: Transformer-driven Scaling of ConvNets for Medical Image Segmentation  [(paper)]([https://arxiv.org/abs/2208.10791](https://arxiv.org/abs/2303.09975)) [(code)](tba) | 89.87 | 92.95 | TBA | TBA | Improve nnUNet by ~1%  |
 
 
 ## 2021 ISBI: MitoEM Challenge: Large-scale 3D Mitochondria Instance Segmentation ([MitoEM](https://mitoem.grand-challenge.org/)) ([Results](https://mitoem.grand-challenge.org/evaluation/challenge/leaderboard/))
