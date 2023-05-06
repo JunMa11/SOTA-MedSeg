@@ -1,4 +1,10 @@
-# Awesome medical image segmentation methods based on various challenges! (Updated 2023-03)
+# Awesome medical image segmentation methods based on various challenges! (Updated 2023-05)
+
+Overview of 15 medical image segmentation competitions in MICCAI 2022.
+
+> For each competition, we present the segmentation target, image modality, dataset size, and the base network architecture in the winning solution. The competitions cover different modalities and segmentation targets with various challenging characteristics. U-Net and its variants are used by all the winning solutions.
+
+![MICCAI22](https://github.com/JunMa11/SOTA-MedSeg/blob/master/MICCAI22-SegChallengeSummary.png)
 
 ## Contents
 **Head and Neck**
