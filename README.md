@@ -1,10 +1,10 @@
-# Awesome medical image segmentation methods based on various challenges! (Updated 2023-05)
+# Awesome medical image segmentation methods based on various challenges! (Updated 2023-12)
 
-Overview of 15 medical image segmentation competitions in MICCAI 2022.
+Overview of medical image segmentation challenges in MICCAI 2023.
 
-> For each competition, we present the segmentation target, image modality, dataset size, and the base network architecture in the winning solution. The competitions cover different modalities and segmentation targets with various challenging characteristics. U-Net and its variants are used by all the winning solutions.
+> For each competition, we present the segmentation target, image modality, dataset size, and the base network architecture in the winning solution. The competitions cover different modalities and segmentation targets with various challenging characteristics. U-Net and its variants still dominate the winning solutions.
 
-![MICCAI22](https://github.com/JunMa11/SOTA-MedSeg/blob/master/MICCAI22-SegChallengeSummary.png)
+![miccai23](https://github.com/JunMa11/SOTA-MedSeg/blob/master/MICCAI23-Challenge.png)
 
 ## Contents
 **Head and Neck**
@@ -48,11 +48,11 @@ Overview of 15 medical image segmentation competitions in MICCAI 2022.
 
 ## Ongoing Challenges
 
-## Intracranial Hemorrhage Segmentation Challenge on Non-Contrast head CT [(INSTANCE)](https://instance.grand-challenge.org/)
+## 2022 MICCAI: Intracranial Hemorrhage Segmentation Challenge on Non-Contrast head CT [(INSTANCE)](https://instance.grand-challenge.org/)
 
 | Date     | First Author    | Title                                                        | DSC  | NSD   | RVD | HD | Remark                   |
 | -------- | --------------- | ------------------------------------------------------------ | ---- | ----- | ---- | ----  | ------------------------ |
-| 202301 | 	Xiangyu Li | The state-of-the-art 3D anisotropic intracranial hemorrhage segmentation on non-contrast head CT: The INSTANCE challenge  [(paper)](https://arxiv.org/abs/2301.03281) | 0.7912 | 0.5026 | 0.21 | 29.02 | Summary paper |
+| 202301 | 	Xiangyu Li | The state-of-the-art 3D anisotropic intracranial hemorrhage segmentation on non-contrast head CT: The INSTANCE challenge  [(paper)](https://arxiv.org/abs/2301.03281) | 0.7912 | 0.5026 | 0.21 | 29.02 | [Summary paper](https://arxiv.org/abs/2301.03281) |
 
 ## 2022 MICCAI: Brain Tumor Segmentation [(BraTS2022)](https://www.synapse.org/#!Synapse:syn27046444/wiki/616571)
 
